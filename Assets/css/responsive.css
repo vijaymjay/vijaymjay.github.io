@@ -1,0 +1,433 @@
+/* Responsive styles */
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .wrapper {
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+        height: unset;
+        overflow: none;
+        padding: 30px;
+    }
+    .section-1,
+    .section-2,
+    .section-3 {
+        width: 100% !important;
+        background-color: rgb(255, 255, 255);
+        min-height: unset;
+    }
+    button {
+        font-size: 16px !important;
+        font-weight: bold !important;
+        padding: 16px 28px !important;
+    }
+    label,
+    span {
+        font-size: 20px;
+    }
+    i {
+        font-size: 23px;
+    }
+
+
+    .recent-question {
+        width: 46.5%;
+        height: 200px;
+    }
+    .recent-question {
+        width: auto;
+        height: 200px;
+    }
+    button {
+        padding: 10px 15px !important;
+    }
+    .set .multiple-choice-type input,
+    .set .multiple-choice-type input:focus {
+        font-size: 20px;
+    }
+    .create-question label {
+        font-size: 17px !important;
+    }
+    .side-a,
+    .side-b {
+        width: 100% !important;
+    }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .wrapper {
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+        height: unset;
+        overflow: none;
+        padding: 50px;
+    }
+    .section-1,
+    .section-2,
+    .section-3 {
+        width: 100% !important;
+        background-color: rgb(255, 255, 255);
+        min-height: unset;
+    }
+
+    .recent-question {
+        width: 47.5%;
+        height: 200px;
+    }
+ 
+    body,
+    p,
+    h6,
+    h5 {
+        font-size: 18px !important;
+    }
+    .side-a,
+    .side-b {
+        width: 100% !important;
+    }
+    .set-img {
+        width: 100%;
+    }
+    .wrapper {
+        gap: 30px;
+        padding: 35px;
+    }
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .wrapper {
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+        height: unset;
+        overflow: none;
+        padding: 50px;
+    }
+    .section-1,
+    .section-2,
+    .section-3 {
+        width: 100% !important;
+        background-color: rgb(255, 255, 255);
+        min-height: unset;
+    }
+
+    body,
+    p,
+    h6,
+    h5 {
+        font-size: 18px !important;
+    }
+    .side-a,
+    .side-b {
+        width: 100% !important;
+    }
+    .set-img {
+        width: 100%;
+    }
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    label,
+    span {
+        font-size: 18px;
+    }
+    button {
+        font-size: 15px !important;
+        padding: 13px 23px !important;
+    }
+    .display-4 {
+        font-size: 2rem;
+    }
+    .h3,
+    h3 {
+        font-size: 1rem;
+    }
+
+    .recent-question h3 {
+        font-size: 16px;
+    }
+    .recent-question {
+        width: 180px;
+        height: 164px;
+    }
+    .create-question label {
+        font-size: 14px !important;
+    }
+
+    .text-break-block {
+        white-space: unset;
+    }
+    .question-icon {
+        width: 15px;
+    }
+    .question-list span {
+        font-size: 13px !important;
+        padding: 3px 6px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+    .set .tick input {
+        font-size: 17px !important;
+    }
+    button {
+        font-size: 13px !important;
+        padding: 7px 16px !important;
+    }
+    .top-bar {
+        height: 55px;
+    }
+    .icon-btn {
+        font-size: 15px;
+        padding: 3px 8px;
+    }
+    .btn-multiple-choie {
+        width: 160px;
+    }
+
+    .question-list i {
+        font-size: 16px;
+    }
+    .btn-multiple-choie {
+        min-width: 166px;
+        max-width: 90%;
+    }
+    div[type="answer"] {
+        font-size: 16px !important;
+    }
+    div[type="small-text"] {
+        font-size: 14px !important;
+
+    }
+    div[type="text"] {
+        font-size: 16px !important;
+
+    }   
+    .Branching-calculation {
+        font-size: 11px;
+    }
+    .logic i {
+        font-size: 13px;
+    }
+    .top-bar {
+        height: 9vh;
+    }
+    .wrapper {
+        height: 91vh;
+    }
+    .logo {
+        height: 39px;
+    }
+    .set {
+        height: 74vh !important;
+    }
+
+    
+}
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1400.98px) {
+    label,
+    span {
+        font-size: 20px;
+    }
+    button {
+        font-size: 16px !important;
+    }
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    .h3,
+    h3 {
+        font-size: 1.50rem;
+    }
+ 
+    .recent-question h3 {
+        font-size: 16px;
+    }
+    .create-question label {
+        font-size: 14px !important;
+    }
+    .section-1,
+    .section-3 {
+        width: 20%;
+    }
+    .section-2 {
+        width: 60%;
+    }
+    .text-break-block {
+        white-space: unset;
+    }
+    .question-icon {
+        width: 15px;
+    }
+    .question-list span {
+        font-size: 13px !important;
+        padding: 5px 10px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+    .set .tick input {
+        font-size: 17px !important;
+    }
+
+
+ 
+    .toggle-sidebar i {
+        font-size: 15px;
+    }
+    .question-list span {
+        font-size: 11px !important;
+        padding: 3px 4px;
+        border-radius: 1px;
+    }
+    .section-2 {
+        height: 70%;
+    }
+    .btn-black, .btn-grey {
+        font-size: 11px !important;
+    }
+    .icon-btn {
+        font-size: 14px;
+        padding: 4px 6px;
+    }
+    .question-list .form-label 
+    {
+        margin: 0;
+    }
+    .question-list
+    {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+    #contentRows {
+        height: calc(96vh - 100px);
+        overflow: hidden !important;
+        overflow-y: auto !important;
+    }
+    .top-bar {
+        height: 5vh;
+    }
+    .wrapper {
+        height: 95vh;
+    }
+
+
+    div[type="answer"] {
+        font-size: 16px !important;
+    }
+    div[type="small-text"] {
+        font-size: 14px !important;
+
+    }
+    div[type="text"] {
+        font-size: 18px !important;
+
+    }   
+    .Branching-calculation {
+        font-size: 11px;
+    }
+    .logic i {
+        font-size: 13px;
+    }
+    .top-bar {
+        height: 9vh;
+    }
+    .wrapper {
+        height: 91vh;
+    }
+    .logo {
+        height: 39px;
+    }
+    .modal-lg, .modal-xl {
+        max-width: 615px;
+    }
+    .question-logic-row {
+        padding: 16px !important;
+        margin-bottom: 30px;
+    }
+  
+}
+/* // For 2k Monitors, (more than 1401 px) */
+@media (min-width: 1401px) and (max-width: 1599.98px) {
+    label,
+    span {
+        font-size: 20px;
+    }
+    button {
+        font-size: 16px !important;
+    }
+    .create-question label {
+        font-size: 16px !important;
+    }
+    /* .section-1,
+    .section-3 {
+        width: 20%;
+    }
+    .section-2 {
+        width: 60%;
+    }
+
+    .section-2 {
+        height: 80%;
+    } */
+    /* body
+    {
+        overflow: hidden;
+    } */
+    
+
+    div[type="answer"] {
+        font-size: 16px !important;
+    }
+    div[type="small-text"] {
+        font-size: 14px !important;
+
+    }
+    div[type="text"] {
+        font-size: 18px !important;
+
+    }   
+    .Branching-calculation {
+        font-size: 11px;
+    }
+    .logic i {
+        font-size: 13px;
+    }
+
+}
+@media (min-width: 1600px) and (max-width: 2559.98px) {
+    label,
+    span {
+        font-size: 22px;
+    }
+    button {
+        font-size: 18px !important;
+    }
+
+    .recent-question {
+        width: 169px;
+        height: 177px;
+    }
+    .create-question label {
+        font-size: 17px !important;
+    }
+    /* .section-2 {
+        height: 80%;
+    } */
+    /* body
+    {
+        overflow: hidden;
+    } */
+  
+}
+@media (min-width: 2560px) {
+    div[type="text"] {
+        font-size: 25px !important;
+    }
+    div[type="small-text"] {
+        font-size: 20px !important;
+   
+    }
+}
