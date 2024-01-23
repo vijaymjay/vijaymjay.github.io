@@ -49,7 +49,7 @@
     </nav>
 
    
-    <section class=" px-4 learningcoursesection">
+    <section class=" px-4 learningcoursesection ">
 
 
 
@@ -59,8 +59,8 @@
       <div class="col-4"></div>
       <div class="col-4">
         <div class="d-flex justify-content-center">
-          <button type="button" class="btn btn-tab1 py-3 px-5 active">English</button>
-          <button type="button" class="btn btn-tab2 py-3 px-5">Tamil</button>
+          <button type="button" class="btn btn-tab1 py-3 px-5 tablinks"  onclick="openCity(event, 'London')">English</button>
+          <button type="button" class="btn btn-tab2 py-3 px-5 tablinks" onclick="openCity(event, 'Paris')">Tamil</button>
         </div>
         
       </div>
@@ -68,13 +68,13 @@
      </div>
 
 
-     <div class="row cousepricebox">
+     <div  id="London" class="row cousepricebox tabcontent" >
 
       <div class="col-lg-6 p-4">
         <div class="card" >
           <img src="Assets/images/flowers-276014__340.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="cardcourse mx-5">Character Animation in<br> After Effects</h5>
+            <h5 class="cardcourse ">Character Animation in<br> After Effects</h5>
 
             <div class="d-flex justify-content-center">
               <button type="button" class="btn btn-danger btn-course-large d-flex justify-content-center">View Course</button>
@@ -89,7 +89,7 @@
         <div class="card" >
           <img src="Assets/images/sun1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="cardcourse mx-5">Motion Graphics in <br>After Effects</h5>
+            <h5 class="cardcourse ">Motion Graphics in <br>After Effects</h5>
 
             <div class="d-flex justify-content-center">
               <button type="button" class="btn btn-danger btn-course-large d-flex justify-content-center">View Course</button>
@@ -104,10 +104,50 @@
       
      </div>
 
+
+     <div id="Paris" class="row cousepricebox tabcontent">
+ 
+      <div class="col-lg-6 p-4">
+        <div class="card" >
+          <img src="Assets/images/flowers-276014__340.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="cardcourse ">Character Animation in<br> After Effects</h5>
+
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-danger btn-course-large d-flex justify-content-center">View Course</button>
+            
+            </div>
+            <div class="price d-flex justify-content-end me-3 mb-3">$59</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 p-4">
+        <div class="card" >
+          <img src="Assets/images/sun1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="cardcourse ">Motion Graphics in <br>After Effects</h5>
+
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-danger btn-course-large d-flex justify-content-center">View Course</button>
+            
+            </div>
+            <div class="price d-flex justify-content-end me-3 mb-3">$52</div>
+          </div>
+        </div>
+      </div>
+
+     
+      
+     </div>
+
      
 
 
     </section>
+
+    
+ 
 
     <section class="footer">
       <div class="row">
@@ -134,7 +174,7 @@
 
 
   </div>
-  
+  <script src="Assets/js/script.js"></script>
 </body>
 
 </html>
