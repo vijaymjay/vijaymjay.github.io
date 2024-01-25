@@ -266,6 +266,9 @@ video {
 .footerleft {margin-left: 3rem!important}
 
 
+
+
+
 /************ Course End Detail ******************/
 
 @media (min-width: 991px) and (max-width: 2600.98px) { 
@@ -361,6 +364,24 @@ video {
            
         }
 
+        .btn-course-large {
+            padding: 14px 100px;
+        }
+
+  }
+
+
+  @media screen and (max-width: 390px) {
+
+    .cardcourse {
+        font-size: 20px;
+        margin-right: 0rem!important;
+        margin-left: 0rem!important;
+    }
+
+    .btn-course-large {
+        padding: 14px 72px;
+    }
   }
 
  
