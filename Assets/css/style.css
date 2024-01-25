@@ -32,6 +32,68 @@
 }
 
 
+.font18{
+    font-size: 18px !important;
+  }
+  
+  .font22{
+    font-size: 22px !important;
+  }
+  
+  .font16{
+    font-size: 16px !important;
+  }
+  
+  .font17{
+    font-size: 17px !important;
+  }
+  
+  .font20{
+    font-size: 20px !important;
+  }
+  
+  .font14{
+    font-size: 14px !important;
+  }
+  
+  .font15{
+    font-size: 15px !important;
+  }
+  
+  .font12{
+    font-size: 12px !important;
+  }
+  
+  .font10{
+    font-size: 10px !important;
+  }
+  
+  .font11{
+    font-size: 11px !important;
+  }
+  
+  .font13{
+    font-size: 13px !important;
+  }
+  
+  .font32{
+    font-size: 32px !important;
+  }
+  .font40{
+    font-size:40px !important
+  }
+  .font24{
+    font-size:24px !important
+  }
+  
+  .font37{
+    font-size:37px !important
+  }
+
+  .font65{
+    font-size:65px !important
+  }
+
 
 body {
     background-color: #000;
@@ -112,10 +174,9 @@ h6 {
 
 /**********  Home  ******/
 
-nav {
-    background-color : #18181A;
-}
+.headersection { background-color : #18181A; }
 
+.bannersection { background-color: #0A0A0A!important;  }
 
 
 .navbar-dark .navbar-nav .nav-link { color: #ffffff;}
@@ -130,7 +191,7 @@ nav {
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {  color: #ff412d; }
 
 
-.bannercolor { background-color: #0A0A0A!important; padding:100px 50px ; }
+.bannercolor { padding:100px 50px ; }
 
 .bannercolor h1,.bannerenrollcolor h1 { font-size: 80px; font-weight: 700; margin-bottom: 40px; line-height: 1; letter-spacing: -.04em; }
 
@@ -139,8 +200,10 @@ nav {
 .btn-large { margin-top: 64px; text-transform: uppercase; background-color:var(--danger); border-radius: 12px; padding: 20px 32px; font-size: 14px; font-weight: 700; display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1); }
 
 .profiledescription {
-    color: #000; font-size: 24px; font-weight: 600; line-height: 1.4; letter-spacing: -.04em;  
+    color: #938c9a; font-size: 16px; font-weight: 500; line-height: 1.6;  
 }
+
+
 
 .profiledescriptionspace { padding-left: 3rem!important; padding-right: 3rem!important; }
 
@@ -171,9 +234,12 @@ video {
 
  .startl { margin-top: 120px; text-transform: uppercase; font-size: 21px;  text-align:center;}
 
- .btn-entroll {  background-image: none; border-radius: 12px; text-align:center; padding: 20px 72px; display: inline-block; background-color:var(--danger);  letter-spacing: -.04em; line-height: 1; font-size: 38px; font-weight: 700;  margin-bottom: 100px; transition: background-color .4s cubic-bezier(.23, 1, .32, 1);  }
+ .btn-entroll {  background-image: none; border-radius: 12px; text-align:center; padding: 16px 72px;
+    font-size: 22px; display: inline-block; background-color:var(--danger);  letter-spacing: -.04em; line-height: 1; font-weight: 700;  margin-bottom: 100px; transition: background-color .4s cubic-bezier(.23, 1, .32, 1);  }
 
- .footer { font-size: 16px; font-weight: 500; background-color: #0A0A0A;  }
+ .footer { font-size: 16px; font-weight: 500; }
+
+ .footersection {  background-color: #0A0A0A;  }
 
  .learningsection .card img {  max-width: 100%; }
 
@@ -192,7 +258,7 @@ video {
 
 .learningcoursesection .active { background-color:var(--danger); }
 
-.learningcoursesection { background-color: #342e3a; padding-bottom: 140px; }
+.learningcoursesection { background-color: #342e3a; padding-bottom: 55px; }
 
 
 .learningcoursesection  .card {
@@ -213,6 +279,8 @@ video {
 
 .price { font-size: 42px;
     font-weight: 700;}
+
+    .learningcoursetab .btn:hover { color: #fff;}
 
  /************ Course Detail ******************/   
 
@@ -251,6 +319,12 @@ video {
 
 .caboutdesc {font-size: 22px;}
 
+
+.coursecurriculumsection { background-color: #18181A; border-top: #393440 1px solid; border-bottom: #393440 1px solid; }
+
+.studentsection {  background-color: #18181A; }
+
+
 .footer  {   
 
     padding-top: 1.5rem!important;
@@ -268,11 +342,14 @@ video {
 
 
 
+  
+
 
 /************ Course End Detail ******************/
 
+
 @media (min-width: 991px) and (max-width: 2600.98px) { 
-    .cousepricebox { padding: 3rem;  margin-top: 3rem ; margin-bottom: 3rem; }
+    .cousepricebox { padding: 0 3rem;  margin-bottom: 3rem; }
 
  }
 
@@ -307,7 +384,7 @@ video {
   }
 
   @media screen and (max-width: 479px) {
-    .bannercolor h1, .bannerenrollcolor h1 {  font-size: 32px; }
+    .bannercolor h1, .bannerenrollcolor h1 {  font-size: 29px; }
 
     .bannercolor div {font-size: 20px;}
 
@@ -330,11 +407,9 @@ video {
 
      .startl { font-size: 16px; }
 
-     .btn-entroll { padding: 17px 78px; font-size: 29px;  }
+     .btn-entroll { padding: 17px 78px; font-size: 19px;  }
 
-     .footerleft { position: relative;
-        top: 75px; }
-
+   
         .footer { 
 
             padding-bottom: 4rem!important;
@@ -342,10 +417,10 @@ video {
 
         .footeruse {
             display: flex;
-           justify-content: center;
-           margin-right: 0rem!important;
+            justify-content: center;
+            margin-right: 0rem!important;
         }
-
+        .fespace { margin-top: 10px;}
         .footerleft { display: flex;
             justify-content: center;
             margin-left:0rem!important;
@@ -365,7 +440,7 @@ video {
         }
 
         .btn-course-large {
-            padding: 14px 100px;
+            padding: 14px 89px;
         }
 
   }
@@ -382,6 +457,13 @@ video {
     .btn-course-large {
         padding: 14px 72px;
     }
+
+    .footeruse {
+        display: flex;
+        justify-content: center;
+        margin-right: 0rem!important;
+    }
+    .fespace { margin-top: 10px;}
   }
 
  
