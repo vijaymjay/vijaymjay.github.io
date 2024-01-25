@@ -341,7 +341,7 @@ video {
 
 
 
-
+.cousepricespace  {padding: 1.5rem!important;}
   
 
 
@@ -443,6 +443,8 @@ video {
             padding: 14px 89px;
         }
 
+        .cousepricespace  {padding: 0.5rem!important;}
+
   }
 
 
@@ -464,6 +466,8 @@ video {
         margin-right: 0rem!important;
     }
     .fespace { margin-top: 10px;}
+
+    .cousepricespace  {padding: 0.5rem!important;}
   }
 
  
