@@ -94,6 +94,11 @@
     font-size:65px !important
   }
 
+  .padding4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+  }
+
 
 body {
     background-color: #000;
@@ -378,22 +383,25 @@ video {
      .cardcourse { font-size: 38px; 
         margin-right: 1rem!important;
         margin-left: 1rem!important; }
+
+
+        .bannerenrollcolor { padding: 148px 4px; }
   
 
      
   }
 
   @media screen and (max-width: 479px) {
-    .bannercolor h1, .bannerenrollcolor h1 {  font-size: 29px; }
+    .bannercolor h1, .bannerenrollcolor h1 {  font-size: 39px; }
 
     .bannercolor div {font-size: 20px;}
 
     .btn-large { width: 100%;  }
 
-    .bannercolor { padding: 100px 20px;}
+    .bannercolor { padding: 100px 0px;}
 
-    .profiledescriptionspace { padding-left: 2rem!important;
-        padding-right: 2rem!important; 
+    .profiledescriptionspace { padding-left: 0.5rem!important;
+        padding-right: 0rem!important;
     }
 
     .profiledescription { 
@@ -445,10 +453,20 @@ video {
 
         .cousepricespace  {padding: 0.5rem!important;}
 
-  }
+        .bannerenrollcolor { padding: 148px 0px; }
+
+        .btn-enroll-large {     padding: 9px 126px;
+            font-size: 22px; }
+      }
+
+  
 
 
   @media screen and (max-width: 390px) {
+
+    .bannercolor h1, .bannerenrollcolor h1 {  font-size: 34px; }
+
+    .bannercolor { padding: 100px 0px;}
 
     .cardcourse {
         font-size: 20px;
@@ -468,6 +486,11 @@ video {
     .fespace { margin-top: 10px;}
 
     .cousepricespace  {padding: 0.5rem!important;}
+
+    .bannerenrollcolor { padding: 148px 0px; }
+
+    .btn-enroll-large {     padding: 9px 96px;
+        font-size: 22px; }
   }
 
  
