@@ -94,9 +94,26 @@
     font-size:65px !important
   }
 
-  .padding4 {
+  .paddingx4 {
     padding-right: 1.5rem!important;
     padding-left: 1.5rem!important;
+  }
+
+  .paddingx5 {
+    padding-right: 3rem!important;
+    padding-left: 3rem!important;
+  }
+
+  .paddingy5 {
+
+
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+  }
+
+  .marginy5 {
+    margin-top: 3rem!important;
+    margin-bottom: 3rem!important;
   }
 
 
@@ -137,7 +154,7 @@ body {
 }
 
 .logo {
-    height: 50px;
+    height: 70px;
     cursor: pointer;
 }
 
@@ -237,7 +254,7 @@ video {
 
  .carddesc { color: #938c9a; font-size: 16px; line-height: 1.6; display: block; margin-left: 10px;  }
 
- .startl { margin-top: 120px; text-transform: uppercase; font-size: 21px;  text-align:center;}
+ .startl { margin-top: 100px; text-transform: uppercase; font-size: 21px;  text-align:center;}
 
  .btn-entroll {  background-image: none; border-radius: 12px; text-align:center; padding: 16px 72px;
     font-size: 22px; display: inline-block; background-color:var(--danger);  letter-spacing: -.04em; line-height: 1; font-weight: 700;  margin-bottom: 100px; transition: background-color .4s cubic-bezier(.23, 1, .32, 1);  }
@@ -316,18 +333,69 @@ video {
 
 .cabouttitle { letter-spacing: -.04em; font-size: 57px;
     font-weight: 700;
-    line-height: 1; }
+    line-height: 1; 
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 51px;
+  }
+
+  .coursecurriculumtitle { letter-spacing: -.04em; font-size: 57px;
+    font-weight: 700;
+    line-height: 1; 
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 51px;
+  }
 
 .learningsection .spacecourse { margin-left: 16px; }
 
 .learningsection .spacedesc { margin-left: 16px; }
 
-.caboutdesc {font-size: 22px;}
+.caboutdesc {font-size: 18px;}
 
 
 .coursecurriculumsection { background-color: #18181A; border-top: #393440 1px solid; border-bottom: #393440 1px solid; }
 
 .studentsection {  background-color: #18181A; }
+
+.lessonlist {margin-top: 75px;
+  margin-bottom: 60px;
+  background-color: #0A0A0A;
+  border-radius: 8px;
+  
+  padding-top: 17px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-bottom: 60px;
+}
+
+.lessonlist p {  
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.lessoninnerlist {
+  background-color: #232027;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+.lessoninnerlist img {
+  
+    padding-left: 8px;
+    width: 62px;
+}
+
+.lessoninnerlist div {
+  margin-left: 10px;
+  font-size: 24px;
+  align-items: center;
+  display: flex;
+}
 
 
 .footer  {   
@@ -347,7 +415,22 @@ video {
 
 
 .cousepricespace  {padding: 1.5rem!important;}
-  
+
+
+.ratingbox { background-color: #232027;  border-radius: 18px;
+  padding: 26px;
+  margin-bottom: 24px;}
+
+  .ratingcontent { margin-top: 20px; }
+
+ 
+
+.rating__star {font-size: 24px;}
+
+.rating__star {
+  cursor: pointer;
+  color: #F9E338;
+}
 
 
 /************ Course End Detail ******************/
@@ -360,14 +443,49 @@ video {
 
  @media (max-width: 1199.98px) { 
 
+
+  .logo {
+    margin-left: -20px;
+    height: 70px;
+   
+}
+
     .learning { font-size: 47px;  }
 
     .cardcourse { font-size: 25px; 
         margin-right: 1rem!important;
         margin-left: 1rem!important; }
+
+
+        .cabouttitle {
+            font-size: 42px;
+        }
+
+        .coursecurriculumtitle { 
+          font-size: 42px;
+        }
+
+        .font37 {
+          font-size: 28px !important;
+      }
+
+      .font65 {
+        font-size: 52px !important;
+      }
+
+    
   }
 
  @media screen and (max-width: 991px){ 
+
+  .logo {
+    margin-left: -20px;
+    height: 70px;
+   
+}
+
+  .navbar-nav { margin-top: 38px;  }
+
     .signcolor { margin-left: -34px; }
 
     .bannercolor h1, .bannerenrollcolor h1 {  font-size: 64px; }
@@ -378,20 +496,49 @@ video {
 
      .learning { font-size:32px; margin: 58px 0px; }
 
-     .btn-entroll { padding: 17px 100px; font-size: 29px;  }
+     .btn-entroll { padding: 15px 65px; font-size: 25px;  }
 
      .cardcourse { font-size: 38px; 
         margin-right: 1rem!important;
         margin-left: 1rem!important; }
 
 
-        .bannerenrollcolor { padding: 148px 4px; }
+    .bannerenrollcolor { padding: 148px 4px; }
+
+    .cabouttitle { display: flex; justify-content: center; margin-top: 22px; font-size: 35px; margin-bottom: 61px;  }
+    
+    .coursecurriculumtitle { display: flex; justify-content: center; margin-top: 22px; font-size: 35px; margin-bottom: 61px;  }
+
+    .lessonlist p { font-size: 20px;}
+
+    .lessoninnerlist div { font-size: 18px; }
+
+    .lessoninnerlist img { width: 47px; }
   
 
-     
+    .font37 {
+      font-size: 26px !important;
+  }
+
+  .font65 {
+    font-size: 55px !important;
+}
+
+
+
+
   }
 
   @media screen and (max-width: 479px) {
+
+    .logo {
+      margin-left: -20px;
+      height: 59px;
+     
+  }
+
+    .navbar-nav { margin-top: 38px;  }
+
     .bannercolor h1, .bannerenrollcolor h1 {  font-size: 39px; }
 
     .bannercolor div {font-size: 20px;}
@@ -457,12 +604,104 @@ video {
 
         .btn-enroll-large {     padding: 9px 126px;
             font-size: 22px; }
+
+
+            .paddingx5 {
+                padding-right: 0rem!important;
+                padding-left: 0rem!important;
+              }
+
+              .paddingy5 {
+
+
+                padding-top: 0rem!important;
+                padding-bottom: 0rem!important;
+              }
+    
+              .paddingx4 {
+                padding-right: 0rem!important;
+                padding-left: 0rem!important;
+              }
+
+              .fontjourney { font-size: 19px; }
+
+              .learningsection .spacedesc {
+                margin-left: 0px;
+            }
+
+            .caboutdesc {
+                font-size: 16px;
+            }
+
+            .learningsection .spacecourse {
+                margin-left: 0px;
+            }
+
+            .cabouttitle {     font-size: 25px; 
+                display: flex;
+                justify-content: center;
+                margin-top: 18px; 
+            
+            }
+
+            .coursecurriculumtitle {     font-size: 25px; 
+              display: flex;
+              justify-content: center;
+              margin-top: 18px; 
+          
+          }
+
+            .marginy5 {
+                margin-top: 0rem!important;
+                margin-bottom: 0rem!important;
+              }
+
+              .learningsection .spacecourse {
+                margin-left: 0px; 
+           }
+
+           .lessonlist {margin-top:37px;}
+
+           .lessonlist p {  font-size: 20px; }
+   
+           .lessoninnerlist img {
+             padding-left: 8px;
+             width: 38px;
+         }
+   
+         .lessoninnerlist div { font-size: 15px; }
+
+         .font37 { font-size: 24px!important; }
+
+         .font65 {
+          font-size: 31px !important;
+      }
+
+     
+
+    .cabouttitle {
+      margin-bottom:54px;
+      justify-content: start;
+    }
+    
+    .coursecurriculumtitle{
+      margin-bottom:54px;
+      justify-content: center;
+    }
+    
+            
       }
 
   
 
 
   @media screen and (max-width: 390px) {
+
+    .logo {
+      margin-left: -20px;
+      height: 59px;
+     
+  }
 
     .bannercolor h1, .bannerenrollcolor h1 {  font-size: 34px; }
 
@@ -491,6 +730,75 @@ video {
 
     .btn-enroll-large {     padding: 9px 96px;
         font-size: 22px; }
+
+        .paddingx5 {
+            padding-right: 0rem!important;
+            padding-left: 0rem!important;
+          }
+
+          .fontjourney { font-size: 17px; }
+
+          .paddingy5 {
+
+
+            padding-top: 0rem!important;
+            padding-bottom: 0rem!important;
+          }
+
+          .paddingx4 {
+            padding-right: 0rem!important;
+            padding-left: 0rem!important;
+          }
+
+          .learningsection .spacedesc {
+            margin-left: 0px;
+        }
+
+        .caboutdesc {
+            font-size: 16px;
+        }
+
+        .learningsection .spacecourse {
+            margin-left: 0px;
+        }
+        
+        .cabouttitle {     font-size: 25px;   margin-top: 0px; }
+
+        .coursecurriculumtitle {     font-size: 25px;   margin-top: 0px; }
+
+        .marginy5 {
+            margin-top: 0rem!important;
+            margin-bottom: 0rem!important;
+          }
+
+          .learningsection .spacecourse {
+             margin-left: 0px; 
+        }
+
+        .navbar-nav { margin-top: 38px;  }
+
+        .lessonlist {margin-top:37px;}
+
+        .lessonlist p {  font-size: 20px; }
+
+        .lessoninnerlist img {
+          padding-left: 8px;
+          width: 38px;
+      }
+
+      .lessoninnerlist div { font-size: 15px; }
+
+      .font37 { font-size: 21px!important; }
+
+      .font65 {
+        font-size: 29px !important;
+    }
+
+   
+
+
+      
+      
   }
 
  

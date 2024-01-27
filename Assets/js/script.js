@@ -19,3 +19,49 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 
+// const starClassActive = "rating__star fas fa-star";
+// const starClassInactive = "rating__star far fa-star";
+
+// const allstars = document.querySelectorAll('.rating');
+
+// function executeRating(allstars) {
+
+// allstars.forEach((rating) => {
+//   [...rating.children].forEach((star, i) => {
+//     star.onclick = function () {
+//       let currentstar = i + 1;
+//       [...rating.children].forEach((star, j) => {
+//           if (currentstar >= j + 1) {
+//               star.innerHTML = starClassActive;
+//           } else {
+//               star.innerHTML = starClassInactive;
+//           }
+//       })
+//     }
+//   });
+// });
+// }
+
+// executeRating(allstars);
+
+const ratingStars = [...document.getElementsByClassName("rating__star")];
+
+function executeRating(stars) {
+  const starClassActive = "rating__star fas fa-star";
+  const starClassInactive = "rating__star far fa-star";
+  const starsLength = stars.length;
+  let i;
+  stars.map((star) => {
+    star.onclick = () => {
+      i = stars.indexOf(star);
+
+      if (star.className === starClassInactive) {
+        for (i; i >= 0; --i) stars[i].className = starClassActive;
+      } else {
+        for (i; i < starsLength; ++i) stars[i].className = starClassInactive;
+      }
+    };
+  });
+}
+executeRating(ratingStars);
+
