@@ -65,3 +65,7 @@ function executeRating(stars) {
 }
 executeRating(ratingStars);
 
+function gotoCourseDetail(){
+  document.location.href='coursedetail.html';
+}
+
