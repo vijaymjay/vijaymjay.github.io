@@ -69,3 +69,7 @@ function gotoCourseDetail(){
   document.location.href='coursedetail.html';
 }
 
+function gotoCourse(){
+  document.location.href='course.html';
+}
+

@@ -268,13 +268,13 @@ video {
     margin: 100px 0px; text-align: center;
  }
 
-  .card {background-color: #232027;}
+  .card {background-color: #232026;}
 
  .cardhome {font-size: 24px; line-height: 1.1; letter-spacing: -.04em; font-weight: 700; text-transform: uppercase; margin-top: 20px; margin-bottom: 20px; margin-left: 10px;}
 
  .carddesc { color: #938c9a; font-size: 16px; line-height: 1.6; display: block; margin-left: 10px;  }
 
- .startl { margin-top: 100px; text-transform: uppercase; font-size: 21px;  text-align:center;}
+ .startl { margin-top: 100px; text-transform: uppercase; font-size: 21px;  text-align:center; font-weight: 200;}
 
  .btn-entroll {  background-image: none; border-radius: 12px; text-align:center; padding: 16px 72px;
     font-size: 22px; display: inline-block; background-color:var(--danger);  letter-spacing: -.04em; line-height: 1; font-weight: 700;  margin-bottom: 100px; transition: background-color .4s cubic-bezier(.23, 1, .32, 1);  }
@@ -300,7 +300,7 @@ video {
 
 .learningcoursesection .active { background-color:var(--danger); }
 
-.learningcoursesection { background-color: #342e3a; padding-bottom: 55px; }
+.learningcoursesection { background-color: #141316; padding-bottom: 55px; }
 
 
 .learningcoursesection  .card {
@@ -376,20 +376,27 @@ video {
 .caboutdesc {font-size: 18px;}
 
 
-.coursecurriculumsection { background-color: #18181A; border-top: #393440 1px solid; border-bottom: #393440 1px solid; }
+.coursecurriculumsection { background-color: #181719; border-top: #393440 1px solid; border-bottom: #393440 1px solid; }
 
 .studentsection {  background-color: #18181A; }
 
 .lessonlist {margin-top: 75px;
   margin-bottom: 60px;
-  background-color: #0A0A0A;
+  background-color: #141316;
   border-radius: 8px;
   
   padding-top: 17px;
-  padding-left: 17px;
-  padding-right: 17px;
-  padding-bottom: 60px;
+  
+ 
 }
+
+.downarrow { 
+  display: flex;
+    justify-content: center;
+    padding: 16px 39px;
+ }
+
+ .downarrow img { width: 48px; }
 
 .lessonlist p {  
   font-size: 24px;
@@ -399,9 +406,9 @@ video {
 }
 
 .lessoninnerlist {
-  background-color: #2d2736;
-  padding: 8px;
-  margin-bottom: 5px;
+  border-bottom: 1px solid #3D3D3D;
+    background-color: #232026;
+    padding: 15px 35px;
 }
 
 .lessoninnerlist img {
@@ -415,10 +422,18 @@ video {
 }
 
 .lessoninnerlist div {
-  margin-left: 10px;
+  margin-left: 29px;
   font-size: 24px;
   align-items: center;
   display: flex;
+}
+
+.downarrow > [aria-expanded=true] img{
+  transform: rotate(180deg);
+}
+
+.downarrow .btn-check:focus+.btn, .btn:focus {
+  box-shadow: none;
 }
 
 
@@ -524,7 +539,7 @@ video {
     margin-top: -2px;
  }
 
- .active {
+ .lessonactive {
   background-color: #232027;
  }
 
@@ -659,8 +674,8 @@ video {
           font-size: 42px;
         }
 
-        .font37 {
-          font-size: 28px !important;
+        .font32 {
+          font-size: 29px !important;
       }
 
       .font65 {
@@ -715,8 +730,8 @@ video {
     .lessoninnerlist img { width: 47px; }
   
 
-    .font37 {
-      font-size: 26px !important;
+    .font32 {
+      font-size: 29px !important;
   }
 
   .font65 {
@@ -729,6 +744,10 @@ video {
 .aboutdesc {
     
   margin-right: 0px;
+}
+
+.downarrow img {
+  width: 38px;
 }
 
   }
@@ -764,7 +783,7 @@ video {
 
      .cardhome { font-size: 20px;  }
 
-     .startl { font-size: 16px; }
+     .startl { font-size: 16px;  }
 
      .btn-entroll { padding: 17px 78px; font-size: 19px;  }
 
@@ -841,7 +860,7 @@ video {
                 margin-left: 0px;
             }
 
-            .cabouttitle {     font-size: 25px; 
+            .cabouttitle {     font-size: 20px; 
                 display: flex;
                 justify-content: center;
                 margin-top: 18px; 
@@ -875,7 +894,7 @@ video {
    
          .lessoninnerlist div { font-size: 15px; }
 
-         .font37 { font-size: 24px!important; }
+         .font32 { font-size: 27px!important; }
 
          .font65 {
           font-size: 31px !important;
@@ -899,6 +918,14 @@ video {
     
       margin-right: 0px;
     }
+
+    .downarrow img {
+      width: 38px;
+  }
+
+  .lessoninnerlist {
+    padding: 15px 10px;
+  }
     
             
       }
@@ -973,7 +1000,7 @@ video {
             margin-left: 0px;
         }
         
-        .cabouttitle {     font-size: 25px;   margin-top: 0px; }
+        .cabouttitle {     font-size: 20px;   margin-top: 0px; }
 
         .coursecurriculumtitle {     font-size: 25px;   margin-top: 0px; }
 
@@ -999,7 +1026,7 @@ video {
 
       .lessoninnerlist div { font-size: 15px; }
 
-      .font37 { font-size: 21px!important; }
+      .font32 { font-size: 26px!important; }
 
       .font65 {
         font-size: 29px !important;
@@ -1011,6 +1038,14 @@ video {
     
       margin-right: 0px;
     }
+
+    .downarrow img {
+      width: 38px;
+  }
+
+  .lessoninnerlist {
+    padding: 15px 10px;
+  }
 
    
 
