@@ -415,6 +415,7 @@ video {
   
     padding-left: 8px;
     width: 62px;
+    cursor: pointer;
 }
 
 .lessoninnerlist:hover {
@@ -426,6 +427,7 @@ video {
   font-size: 24px;
   align-items: center;
   display: flex;
+  cursor: pointer;
 }
 
 .downarrow > [aria-expanded=true] img{
@@ -555,7 +557,7 @@ video {
     padding: 21px 27px;
     font-size: 26px;
     font-weight: 700;
-    border-bottom: 1px solid #332e3a;
+    border-bottom: 1px solid #232026;
   }
 
   .courseoutlinetext > input[type=radio] {
@@ -567,6 +569,7 @@ video {
     border-radius: 12px;
     display: inline-grid;
     place-content: center;
+   
   }
 
   .courseoutlinetext > input[type=radio]::before {
@@ -609,8 +612,11 @@ video {
 
 .sidebarheader {
   font-size: 27px;
-  padding: 10px 164px 10px 27px;
   font-weight: 700;
+}
+
+.lessonleft {
+  padding:10px 10px 10px 27px;
 }
 
 .btn-lesson-large { margin-top: 25px; margin-bottom: 25px; text-transform: uppercase; background-color:var(--danger); border-radius: 25px; padding: 6px 32px; font-size: 22px; font-weight: 700; display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1);   }
@@ -622,27 +628,61 @@ video {
     margin-top: 56px;
 }
 
-.right-arrow::before {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
+.right-arrow .btn {
+  position: relative;
+    left: 29px;
+    top: 23px;
 }
 
-.right-arrow {
-  position: absolute;
-    border-radius: 100%;
-    background: inherit;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%) translateX(25%);
-    font-size: 0.8em;
-    padding: 8px;
-    z-index: 9;
+.offcanvas {
+  visibility:visible!important;
+  background-color:#141316;
 }
+
+.lessonbodyleft {
+  position: fixed;
+    left: 0;
+    top: 63px;
+    bottom: 0;
+    width: 400px;
+    
+   
+    transition: all 0.3s ease;
+    z-index: 99;
+}
+
+
+
+.offcanvas-start {
+  top:64px;
+}
+
+.ld-focus-main {
+  flex: 1 auto;
+    margin-left: 399px;
+    width: calc(100% - 400px);
+    transition: margin-left 0.3s ease;
+}
+
+.ld-focus-sidebar-collapsed > .lessonbodyleft{
+  background-color: transparent;
+    transform: translateX(calc(-100% + 50px));
+}
+
+.ld-focus-sidebar-collapsed > .lessonbodyleft > .ld-course-navigation-list {
+  opacity:0;
+}
+
+.ld-focus-sidebar-collapsed > .ld-focus-main  {
+  margin-left: 50px;
+  width: calc(100% - 50px);
+}
+
 
 
 /************* end Lesson detail *****************/
+
+
 
 
 @media (min-width: 991px) and (max-width: 2600.98px) { 
@@ -685,6 +725,10 @@ video {
       .aboutdesc {
     
         margin-right: 0px;
+      }
+
+      .lessonheaderright > div {
+        font-size: 20px;
       }
 
     
@@ -748,6 +792,17 @@ video {
 
 .downarrow img {
   width: 38px;
+}
+
+.lessonheaderright > div { font-size: 16px;}
+
+.lessonheaderright img { width: 38px;}
+
+.lessonbodyleft {
+  top: 0px;
+    padding-top: 0;
+    z-index: 1000;
+    position: absolute;
 }
 
   }

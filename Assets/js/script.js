@@ -73,3 +73,29 @@ function gotoCourse(){
   document.location.href='course.html';
 }
 
+function closeLesson(){
+
+  const mydivclass = document.querySelector('.lessonbodyleftouter');
+
+  if(mydivclass.classList.contains('ld-focus-sidebar-collapsed')) {
+
+   
+    document.getElementById("ld-focus-sidebar").classList.remove("ld-focus-sidebar-collapsed");
+  
+}
+else {
+ 
+  document.getElementById("ld-focus-sidebar").classList.add("ld-focus-sidebar-collapsed");
+ 
+}
+
+
+
+
+  
+ }
+
+
+
+
+
