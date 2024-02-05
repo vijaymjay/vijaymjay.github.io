@@ -21,21 +21,28 @@
 
 <div class="container-fluid lessonheadersection">
     <div class="row">
-        <div class="col-3 lessonheaderleft">
+        <div class="col-2 lessonheaderleft">
             <img src="Assets/images/asset3.png">
+            <div class="ld-mobile-nav">
+                <button class="btn ld-trigger-mobile-nav" type="button"  onclick="closeLesson()"  >
+                    <span class="bar-1"></span>
+                    <span class="bar-2"></span>
+                    <span class="bar-3"></span>
+                  </button>
+            </div>
         </div>
-        <div class="col-9">
+        <div class="col-10">
             <div class="row lessonheaderright">
                 <div class="col-3">
                     8% Complete
                 </div>
-                <div class="col-5">
+                <div class="col-4">
                    < Previous Lesson 
                 </div>
                 <div class="col-3">
                     Next Lesson >
                 </div>
-                <div class="col-1">
+                <div class="col-2">
                     <img src="Assets/images/asset4.png">
                 </div>
             </div>
@@ -89,10 +96,10 @@
         </div>
         <div class="ld-focus-main">
             <div class="row paddingx5">
-                <div class="col-8 interactive">
+                <div class="col-md-8 interactive">
                     2 - Interactive Chops and Tops / Recording
                 </div>
-                <div class="col-4 intercomplete">
+                <div class="col-md-4 intercomplete">
                     <button type="button" class="btn btn-danger btn-lesson-large ">Complete</button>
                 </div>
             </div>
@@ -105,12 +112,42 @@
                 </div>
             </div>
 
+            <div class="row paddingx5 border-gray-bottom">
+                <div class="interactive">
+                    Lesson Files
+                </div>
+
+                <ul>
+                    <li> Interactive Chops - AE Download  </li>
+                    <li> Interactive Chops - Ai Download  </li>
+                </ul>
+            </div>
+
+            <div class="paddingx5 border-gray-bottom">
+                <div class="interactive">
+                   Learning Outcomes
+                </div>
+                </div>
+
 
         </div>
 
     </div>
 
 </div>
+
+<script>
+    function getWidth(){
+        const element = document.getElementById("ld-focus-sidebar");
+        if(element.clientWidth <769){
+            document.getElementById("ld-focus-sidebar").classList.add("ld-focus-sidebar-collapsed");
+        }
+        
+    }
+
+getWidth();
+
+</script>
 
 
 <script src="Assets/js/script.js"></script>

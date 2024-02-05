@@ -518,7 +518,7 @@ video {
   .lessonheaderright > div:nth-child(4) {  
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     
     
 
@@ -537,8 +537,8 @@ video {
   }
 
  .courseoutlinetext div {
-  margin-left: 20px;
-    margin-top: -2px;
+  margin-left: 13px;
+   
  }
 
  .lessonactive {
@@ -555,7 +555,7 @@ video {
 
   .courseoutline {
     padding: 21px 27px;
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 700;
     border-bottom: 1px solid #232026;
   }
@@ -600,6 +600,7 @@ video {
 .lessonheadersection {
   background-color: #232027;
   border-bottom: 1px solid #332e3a;
+  position: fixed;
 }
 
 .lessonbodysection {
@@ -611,7 +612,7 @@ video {
 }
 
 .sidebarheader {
-  font-size: 27px;
+  font-size: 23px;
   font-weight: 700;
 }
 
@@ -644,7 +645,7 @@ video {
     left: 0;
     top: 63px;
     bottom: 0;
-    width: 400px;
+    width: 362px;
     
    
     transition: all 0.3s ease;
@@ -658,8 +659,9 @@ video {
 }
 
 .ld-focus-main {
+  margin-top: 50px;
   flex: 1 auto;
-    margin-left: 399px;
+    margin-left: 361px;
     width: calc(100% - 400px);
     transition: margin-left 0.3s ease;
 }
@@ -676,6 +678,14 @@ video {
 .ld-focus-sidebar-collapsed > .ld-focus-main  {
   margin-left: 50px;
   width: calc(100% - 50px);
+}
+
+.ld-mobile-nav {
+  display: none;
+}
+
+.border-gray-bottom {
+  border-bottom: 1px solid #332e3a;
 }
 
 
@@ -729,6 +739,10 @@ video {
 
       .lessonheaderright > div {
         font-size: 20px;
+      }
+
+      .interactive {
+        margin-top:63px;
       }
 
     
@@ -803,6 +817,47 @@ video {
     padding-top: 0;
     z-index: 1000;
     position: absolute;
+}
+
+.ld-focus-sidebar-collapsed  > .lessonbodyleft {
+  transform:  translateX(-100%);
+}
+
+.ld-focus-sidebar-collapsed  > .lessonbodyleft > .sidebarheader > .d-flex > .right-arrow > .btn {
+  display: none;
+}
+
+.ld-focus-sidebar-collapsed > .ld-focus-main {
+  margin-left:0px;
+}
+
+.lessonheaderleft img {display: none;}
+
+.ld-mobile-nav {
+  display: block;
+}
+
+.ld-mobile-nav span {
+  display: block;
+    width: 25px;
+    height: 4px;
+    margin: 4px 0;
+    background-color: #fff;
+    transition: all ease-in-out 250ms;
+}
+
+.interactive {
+  font-size:25px;
+  margin-top:79px;
+}
+
+.ld-focus-main {
+  margin-left:0px;
+  width: 100%;
+}
+
+.ld-course-navigation-list, .lessonbodyleft{
+  background-color: #18181A;
 }
 
   }
@@ -981,7 +1036,24 @@ video {
   .lessoninnerlist {
     padding: 15px 10px;
   }
-    
+
+  .lessonheaderright > div:nth-child(2) {
+    padding-right : 0px;
+  }
+
+  .lessonheaderright > div {
+    font-size: 12px;
+  }
+
+  .lessonheaderleft {
+    padding: 10px 11px;
+  }
+
+  .intercomplete {
+    margin-top:0px;
+  }
+
+ 
             
       }
 
@@ -1103,7 +1175,15 @@ video {
   }
 
    
+  .lessonheaderleft {
+    padding: 10px 11px;
+  }
 
+  .intercomplete {
+    margin-top:0px;
+  }
+
+  
 
       
       
