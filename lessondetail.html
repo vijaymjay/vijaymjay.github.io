@@ -42,8 +42,21 @@
                 <div class="col-3">
                     Next Lesson >
                 </div>
-                <div class="col-2">
-                    <img src="Assets/images/asset4.png">
+                <div class="dropdown col-2">
+
+
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="Assets/images/asset4.png">
+                      </button>
+
+                   
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Course Home</a></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                       
+                      </ul>
+
                 </div>
             </div>
             
@@ -75,18 +88,18 @@
                     Course Outline
                 </div>
                 <div class="courseoutlinetext">
-                    <input type="radio" name="fruit"> <div>1 - Kick Off & Introduction</div> 
+                    <div> <input type="radio" name="fruit" checked></div> <div>1 - Kick Off & Introduction</div> 
                 </div>
-                <div class="courseoutlinetext lessonactive">
-                    <input type="radio" name="fruit"> <div> 2 - Interactive Chops and Tops / Recording</div>
+                <div class="courseoutlinetext">
+                    <div> <input type="radio" name="fruit"></div> <div> 2 - Interactive Chops and Tops / Recording</div>
                 </div>
     
                 <div class="courseoutlinetext">
-                    <input type="radio" name="fruit"> <div> 3 - Feedback Loops</div>
+                    <div> <input type="radio" name="fruit"></div> <div> 3 - Feedback Loops</div>
                 </div>
     
                 <div class="courseoutlinetext">
-                    <input type="radio" name="fruit"> <div> 4 - Enter 3D Space</div>
+                    <div> <input type="radio" name="fruit"></div> <div> 4 - Enter 3D Space</div>
                 </div>
             </div>
            
@@ -95,7 +108,7 @@
 
         </div>
         <div class="ld-focus-main">
-            <div class="row paddingx5">
+            <div class="row paddingx6">
                 <div class="col-md-8 interactive">
                     2 - Interactive Chops and Tops / Recording
                 </div>
@@ -112,22 +125,37 @@
                 </div>
             </div>
 
-            <div class="row paddingx5 border-gray-bottom">
-                <div class="interactive">
+            <div class="row paddingx6 border-gray-bottom">
+                <div class="interlesson">
                     Lesson Files
                 </div>
 
-                <ul>
-                    <li> Interactive Chops - AE Download  </li>
-                    <li> Interactive Chops - Ai Download  </li>
+                <ul class="lessonfile">
+                    <li> Interactive Chops - AE <a href="#">Download</a>  </li>
+                    <li> Interactive Chops - Ai <a href="#">Download</a>  </li>
                 </ul>
             </div>
 
-            <div class="paddingx5 border-gray-bottom">
-                <div class="interactive">
+            <div class="row paddingx6 pb-4 border-gray-bottom">
+                <div class="interlesson">
                    Learning Outcomes
                 </div>
+
+                <ul class="lessonfile lfile">
+                    <li> Understood the possiblity of working with Nida physics and dynamics </li>
+                    <li>Learned the Nvidia Flow emitter setup and possible configurations </li>
+                    <li>Getting famillier with Actor COMP and the Kinematic Collisions</li>
+                </ul>
                 </div>
+
+
+                <div class="row paddingx6 pb-5 border-gray-bottom">
+                    <div class="interlesson">
+                       Get Support
+                    </div>
+    
+                  <div class="inlession">To get support outside of the live session, please join our discord server with this invite:<br><span>https://discord.gg/ghv9wdabx</span></div>
+                </div> 
 
 
         </div>
