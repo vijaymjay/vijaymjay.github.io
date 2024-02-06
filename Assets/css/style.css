@@ -1114,7 +1114,9 @@ video {
     padding-left: 1rem!important;
   }
 
- 
+  .pad0 {padding: 0px;}
+
+  .dropdown { padding: 7px; }
             
       }
 
@@ -1249,8 +1251,9 @@ video {
     padding-left: 1rem!important;
   }
 
+  .pad0 {padding: 0px;}
       
-      
+  .dropdown { padding: 7px; }
   }
 
  
