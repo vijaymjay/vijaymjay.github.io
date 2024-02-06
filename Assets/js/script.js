@@ -36,6 +36,8 @@ function gotoCourse(){
   document.location.href='course.html';
 }
 
+
+
 function closeLesson(){
 
   const mydivclass = document.querySelector('.lessonbodyleftouter');
