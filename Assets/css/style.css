@@ -679,9 +679,9 @@ body::-webkit-scrollbar-thumb {
 
 .intercomplete { 
   display: flex;
-    height: 96px;
+   
     justify-content: end;
-    margin-top: 56px;
+    margin-top: 96px;
 }
 
 .right-arrow .btn {
@@ -807,6 +807,15 @@ body::-webkit-scrollbar-thumb {
 .lactive  {  background-color: #232026;}
 
 .inactive img:nth-child(1),.inactive img:nth-child(2) { display: none;  }
+
+.completecontinue {
+  height: 39px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 0 30px;
+    border-color: #232027;
+    color: #666666;
+}
 
 /************* end Lesson detail *****************/
 
