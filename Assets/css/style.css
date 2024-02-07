@@ -1091,8 +1091,8 @@ body::-webkit-scrollbar-thumb {
 
 
             .paddingx5 {
-                padding-right: 0rem!important;
-                padding-left: 0rem!important;
+                padding-right: 0.5rem!important;
+                padding-left: 0.5rem!important;
               }
 
               .paddingy5 {
@@ -1256,8 +1256,8 @@ body::-webkit-scrollbar-thumb {
         font-size: 22px; }
 
         .paddingx5 {
-            padding-right: 0rem!important;
-            padding-left: 0rem!important;
+            padding-right: 0.5rem!important;
+            padding-left: 0.5rem!important;
           }
 
           .fontjourney { font-size: 17px; }
