@@ -317,9 +317,8 @@ video {
     
 .learningcoursesection .card img { max-width: 100%;}
 
-.cardcourse { font-size: 33px; line-height: 1.1; letter-spacing: -.04em; font-weight: 700;  margin-top: 20px; margin-bottom: 20px; margin-left: 10px; text-align: center; 
-    margin-right: 3rem!important;
-    margin-left: 3rem!important;
+.cardcourse { font-size: 25px; line-height: 1.1; letter-spacing: -.04em; font-weight: 700;  margin-top: 20px; margin-bottom: 20px; margin-left: 10px; text-align: center; 
+  
 }
 
 .btn-course-large { margin-top: 25px; margin-bottom: 25px; background-color:var(--danger); border-radius: 12px; padding: 14px 32px; font-size: 22px; font-weight: 700; display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1);   }
@@ -1080,7 +1079,7 @@ body::-webkit-scrollbar-thumb {
         }
 
         .btn-course-large {
-            padding: 14px 89px;
+            padding: 14px 77px;
         }
 
         .cousepricespace  {padding: 0.5rem!important;}
@@ -1212,6 +1211,8 @@ body::-webkit-scrollbar-thumb {
   .pad0 {padding: 0px;}
 
   .dropdown { padding: 7px; }
+
+  .cousepricebox { padding: 0 1rem;}
             
       }
 
@@ -1237,7 +1238,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .btn-course-large {
-        padding: 14px 72px;
+        padding: 12px 49px;
     }
 
     .footeruse {
@@ -1349,6 +1350,8 @@ body::-webkit-scrollbar-thumb {
   .pad0 {padding: 0px;}
       
   .dropdown { padding: 7px; }
+
+  .cousepricebox { padding: 0 1rem;}
   }
 
  
