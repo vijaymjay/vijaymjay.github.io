@@ -483,6 +483,17 @@ video {
 
 /************* lesson detail *********************/
 
+.plesson  img { width: 18px;
+  margin-right: 8px;
+  transform: rotate(86deg);  }
+
+  .nlesson img {
+    width: 18px;
+    margin-top: 2px;
+    margin-left: 8px;
+    transform: rotate(-92deg);
+  }
+
 .bi-house-door-fill::before {
   font-size: 54px;
     color: #666666;
@@ -493,7 +504,7 @@ video {
    
    display: flex;
     align-items: center;
-
+  width: 20.9%;
 }
 
 .lessonheaderleft img {
@@ -504,7 +515,7 @@ video {
   width: 45px;
 }
 
-.lessonheaderright { height: 100%; }
+.lessonheaderright { height: 100%; width: 79.1%; }
 
 .lessonheaderright > div {   border-right:1px solid #332e3a; font-size: 24px; color: #666666; }
 
@@ -620,22 +631,24 @@ video {
 }
 
 .lessonbodysection {
-  background-color: #101415;
+  background-color: #0f0f0f;
 }
 
 .lessonbodyleft {background-color: #181719;}
 
-.ld-course-navigation-list { height: 800px; overflow-y: auto; }
+ .ld-course-navigation-list { height: 80%;  } 
 
-.ld-course-navigation-list::-webkit-scrollbar {
+.ld-course-navigation-list > .side  {height: 700px; overflow-y: auto;}
+
+.ld-course-navigation-list > .side::-webkit-scrollbar {
   width: 12px;               /* width of the entire scrollbar */
 }
 
-.ld-course-navigation-list::-webkit-scrollbar-track {
+.ld-course-navigation-list > .side::-webkit-scrollbar-track {
   background: #232026;        /* color of the tracking area */
 }
 
-.ld-course-navigation-list::-webkit-scrollbar-thumb {
+.ld-course-navigation-list > .side::-webkit-scrollbar-thumb {
   background-color: #666666;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
   border: 3px solid #232026;  /* creates padding around scroll thumb */
@@ -679,7 +692,7 @@ body::-webkit-scrollbar-thumb {
 .intercomplete { 
   display: flex;
    
-    justify-content: end;
+    justify-content: start;
     margin-top: 96px;
 }
 
@@ -697,9 +710,9 @@ body::-webkit-scrollbar-thumb {
 .lessonbodyleft {
   position: fixed;
     left: 0;
-    top: 60px;
+    top: 61px;
     bottom: 0;
-    width: 362px;
+    width: 415px;
     
    
     transition: all 0.3s ease;
@@ -715,8 +728,8 @@ body::-webkit-scrollbar-thumb {
 .ld-focus-main {
   margin-top: 50px;
   flex: 1 auto;
-    margin-left: 361px;
-    width: calc(100% - 400px);
+    margin-left: 415px;
+    width: calc(100% - 450px);
     transition: margin-left 0.3s ease;
 }
 
@@ -753,8 +766,8 @@ body::-webkit-scrollbar-thumb {
 
 .dropdown-menu li a{
   color: #ffff;
-    font-weight: bold;
-    font-size: 22px;
+   
+    font-size: 18px;
     padding: 6px 37px;
 }
 
@@ -814,6 +827,7 @@ body::-webkit-scrollbar-thumb {
     padding: 0 30px;
     border-color: #232027;
     color: #666666;
+    margin-bottom: 15px;
 }
 
 /************* end Lesson detail *****************/
@@ -838,6 +852,14 @@ body::-webkit-scrollbar-thumb {
   .paddingx5 {
      padding-right: 3rem!important;
      padding-left: 3rem!important;
+   }
+
+   .lessonheaderleft {
+    width: 20.9%;
+   }
+
+   .lessonheaderright {
+    width: 79.1%;
    }
  
  }
@@ -901,6 +923,8 @@ body::-webkit-scrollbar-thumb {
 
  @media screen and (max-width: 991px){ 
 
+  .completecontinue { height: 59px; }
+
   .logo {
     margin-left: -20px;
     height: 70px;
@@ -961,7 +985,13 @@ body::-webkit-scrollbar-thumb {
 
 .lessonheaderright > div { font-size: 16px;}
 
-.lessonheaderright img { width: 38px;}
+#dropdownMenuButton1 img { width: 30px;}
+
+.plesson span {display: none;}
+
+.nlesson span  {display: none;}
+
+.complesson span {display: none;}
 
 .lessonbodyleft {
   top: 0px;
@@ -982,7 +1012,7 @@ body::-webkit-scrollbar-thumb {
   margin-left:0px;
 }
 
-.lessonheaderleft img {display: none;}
+/* .lessonheaderleft img {display: none;} */
 
 .ld-mobile-nav {
   display: block;
@@ -991,8 +1021,8 @@ body::-webkit-scrollbar-thumb {
 .ld-mobile-nav span {
   display: block;
     width: 25px;
-    height: 4px;
-    margin: 4px 0;
+    height: 1px;
+    margin: 5px 0;
     background-color: #fff;
     transition: all ease-in-out 250ms;
 }
@@ -1010,6 +1040,15 @@ body::-webkit-scrollbar-thumb {
 .ld-course-navigation-list, .lessonbodyleft{
   background-color: #18181A;
 }
+
+.lessonheaderleft a {
+  position: absolute;
+    left: 70px;
+}
+
+.ld-course-navigation-list { height: 130%;  }
+
+.ld-course-navigation-list > .side {height: 700px; overflow-y: auto;}
 
   }
 
@@ -1193,14 +1232,13 @@ body::-webkit-scrollbar-thumb {
   }
 
   .lessonheaderright > div {
-    font-size: 12px;
+    font-size: 20px;
   }
 
-  .lessonheaderleft {
-    padding: 10px 11px;
-  }
+  
 
   .intercomplete {
+    justify-content: center;
     margin-top:0px;
   }
   .paddingx6 {
@@ -1213,6 +1251,12 @@ body::-webkit-scrollbar-thumb {
   .dropdown { padding: 7px; }
 
   .cousepricebox { padding: 0 1rem;}
+
+  .lessonheaderleft { width: 27%; }
+
+  .lessonheaderright > div:nth-child(2) { justify-content: center;}
+
+  .lessonheaderleft img {width: 60%;}
             
       }
 
@@ -1334,11 +1378,9 @@ body::-webkit-scrollbar-thumb {
   }
 
    
-  .lessonheaderleft {
-    padding: 10px 11px;
-  }
-
+ 
   .intercomplete {
+    justify-content: center;
     margin-top:0px;
   }
 
@@ -1352,6 +1394,12 @@ body::-webkit-scrollbar-thumb {
   .dropdown { padding: 7px; }
 
   .cousepricebox { padding: 0 1rem;}
+
+  .lessonheaderleft { width: 31.9%; }
+
+  .lessonheaderright > div:nth-child(2) { justify-content: center;}
+
+  .lessonheaderleft img {width: 60%;}
   }
 
  
