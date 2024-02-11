@@ -1050,6 +1050,10 @@ body::-webkit-scrollbar-thumb {
 
 .ld-course-navigation-list > .side {height: 700px; overflow-y: auto;}
 
+.signcolor { margin-left: 0px; padding-left: 8px; padding-right: 8px; text-decoration: none; }
+
+.signd { margin-top: 10px; }
+
   }
 
   @media screen and (max-width: 479px) {
@@ -1257,6 +1261,17 @@ body::-webkit-scrollbar-thumb {
   .lessonheaderright > div:nth-child(2) { justify-content: center;}
 
   .lessonheaderleft img {width: 60%;}
+
+  .navtext { margin-right: 0px; }
+
+ 
+
+  .signcolor { margin-left: 0px; padding-left: 8px; padding-right: 8px; text-decoration: none; }
+
+  .signd { margin-top: 10px; }
+
+  .ld-course-navigation-list { height: 190%;  }
+
             
       }
 
@@ -1400,6 +1415,14 @@ body::-webkit-scrollbar-thumb {
   .lessonheaderright > div:nth-child(2) { justify-content: center;}
 
   .lessonheaderleft img {width: 60%;}
+
+  .navtext { margin-right: 0px; }
+
+  .signcolor { margin-left: 0px; padding-left: 8px; padding-right: 8px; text-decoration: none; }
+
+  .signd { margin-top: 10px; }
+
+  .ld-course-navigation-list { height: 190%;  }
   }
 
  
