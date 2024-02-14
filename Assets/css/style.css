@@ -970,6 +970,11 @@ body::-webkit-scrollbar-thumb {
 
 .form-check-label {
   color: #6d6d6d;
+  width: 77%;
+}
+
+.form-check {
+  padding-left: 2rem;
 }
 
 .btn-login {
@@ -998,6 +1003,10 @@ body::-webkit-scrollbar-thumb {
 
   .loginbox {
     padding: 132px 200px;
+  }
+
+  .signupbox {
+    padding: 130px 234px;
   }
 
   .rightc {
@@ -1053,6 +1062,8 @@ body::-webkit-scrollbar-thumb {
 .loginbox {
   padding: 193px 338px
 }
+
+
 
  }
 
@@ -1126,7 +1137,9 @@ body::-webkit-scrollbar-thumb {
   padding: 132px 116px;
 }
 
-
+.signupbox {
+  padding: 130px 91px;
+}
 
 
 }
@@ -1212,6 +1225,11 @@ body::-webkit-scrollbar-thumb {
 .complesson span {
   display: none;
 }
+
+.signupbox {
+  padding: 130px 18px;
+}
+
 
     
   }
@@ -1381,6 +1399,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .loginsecion {height: 140vh;}
+
+.signupbox {
+  padding: 130px 95px;
+}
 
 
   }
@@ -1638,6 +1660,10 @@ body::-webkit-scrollbar-thumb {
  }
 
  .loginsecion {height: 140vh;}
+
+ .signupbox {
+  padding: 130px 7px;
+}
             
       }
 
