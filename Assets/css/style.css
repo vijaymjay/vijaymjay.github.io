@@ -1014,7 +1014,7 @@ body::-webkit-scrollbar-thumb {
     margin-right: 29px;
   }
 
- .loginsecion {height: 90vh;}
+ 
 
 
 /*************** End login   ************************/
@@ -1056,7 +1056,7 @@ body::-webkit-scrollbar-thumb {
 
  }
 
- @media (max-width: 1990.98px) { 
+ @media (max-width: 2200.98px) { 
   
   .paddingx5 {
      padding-right: 3rem!important;
