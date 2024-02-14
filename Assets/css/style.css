@@ -126,7 +126,7 @@ body {
     background-color: #000;
     font-family: 'Inter', sans-serif;
     height: 100vh;
-    font-size: 14px !important;
+    font-size: 15px ;
     color: #eae8e4;
 
 }
@@ -970,7 +970,7 @@ body::-webkit-scrollbar-thumb {
 
 .form-check-label {
   color: #6d6d6d;
-  width: 77%;
+  width: 110%;
 }
 
 .form-check {
@@ -1014,14 +1014,16 @@ body::-webkit-scrollbar-thumb {
     margin-left: auto;
   }
 
-  .socialicon { margin-top: 50px; text-align: center;}
+  .socialicon, .socialsignupicon { margin-top: 50px; text-align: center;}
 
-  .socialicon img {width: 19%;
+  .socialicon img, .socialsignupicon img {width: 19%;
     border: 1px solid #b2b2b2;
     border-radius: 28px;
     padding: 9px 28px;
     margin-right: 29px;
   }
+
+ 
 
  .loginsecion {height: 90vh;}
 
@@ -1063,7 +1065,16 @@ body::-webkit-scrollbar-thumb {
   padding: 193px 338px
 }
 
+.socialsignupicon img {
+  padding: 12px 35px;
+  width: 15%;
+}
 
+
+
+.form-control {
+  height: 70px;
+}
 
  }
 
@@ -1102,6 +1113,13 @@ body::-webkit-scrollbar-thumb {
   width: 18%;
 }
 
+.socialsignupicon img {
+  width: 15%;
+}
+
+.form-control {
+  height: 55px;
+}
  
  }
 
@@ -1139,6 +1157,14 @@ body::-webkit-scrollbar-thumb {
 
 .signupbox {
   padding: 130px 91px;
+}
+
+.socialsignupicon img {
+  width: 20%;
+}
+
+.form-control {
+  height: 55px;
 }
 
 
@@ -1230,7 +1256,13 @@ body::-webkit-scrollbar-thumb {
   padding: 130px 18px;
 }
 
+.socialsignupicon img {
+  width: 23%;
+}
 
+.form-control {
+  height: 55px;
+}
     
   }
 
@@ -1402,6 +1434,14 @@ body::-webkit-scrollbar-thumb {
 
 .signupbox {
   padding: 130px 95px;
+}
+
+.socialsignupicon img {
+  width: 18%;
+}
+
+.form-control {
+  height: 55px;
 }
 
 
@@ -1664,6 +1704,14 @@ body::-webkit-scrollbar-thumb {
  .signupbox {
   padding: 130px 7px;
 }
+
+.socialsignupicon img {
+  padding: 12px 30px;
+  width: 25%;
+}
+.form-control {
+  height: 55px;
+}
             
       }
 
@@ -1849,6 +1897,16 @@ body::-webkit-scrollbar-thumb {
    }
 
    .loginsecion {height: 140vh;}
+
+
+   .socialsignupicon img {
+    padding: 8px 27px;
+    width: 23%;
+}
+
+.form-control {
+  height: 55px;
+}
   }
 
  
