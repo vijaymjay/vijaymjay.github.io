@@ -1014,7 +1014,7 @@ body::-webkit-scrollbar-thumb {
     margin-right: 29px;
   }
 
- 
+ .loginsecion {height: 90vh;}
 
 
 /*************** End login   ************************/
@@ -1380,6 +1380,8 @@ body::-webkit-scrollbar-thumb {
   padding: 6px 12px;
 }
 
+.loginsecion {height: 140vh;}
+
 
   }
 
@@ -1634,6 +1636,8 @@ body::-webkit-scrollbar-thumb {
   padding: 9px 25px;
   margin-right: 26px;
  }
+
+ .loginsecion {height: 140vh;}
             
       }
 
@@ -1817,6 +1821,8 @@ body::-webkit-scrollbar-thumb {
     padding: 9px 25px;
     margin-right: 15px;
    }
+
+   .loginsecion {height: 140vh;}
   }
 
  
