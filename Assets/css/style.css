@@ -910,6 +910,11 @@ body::-webkit-scrollbar-thumb {
   .profilearrow {width: 11%!important;
     padding: 8px;}
 
+    .lessonhead {
+      display: flex;
+      padding: 0px
+    }
+
 /************* end Lesson detail *****************/
 
 
@@ -923,8 +928,9 @@ body::-webkit-scrollbar-thumb {
     border-bottom: 1px solid #b2b2b2;
 }
 
-.needaccount > span {
+.needaccount > a {
   color: var(--danger);
+  text-decoration: none;
 }
 
 .signin {
@@ -1114,7 +1120,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .socialsignupicon img {
-  width: 15%;
+  width: 21%;
 }
 
 .form-control {
@@ -1444,6 +1450,10 @@ body::-webkit-scrollbar-thumb {
   height: 55px;
 }
 
+.lessonhead {
+  padding: 11px 0px;
+}
+
 
   }
 
@@ -1712,6 +1722,10 @@ body::-webkit-scrollbar-thumb {
 .form-control {
   height: 55px;
 }
+
+.lessonhead {
+  padding: 11px 0px;
+}
             
       }
 
@@ -1906,6 +1920,10 @@ body::-webkit-scrollbar-thumb {
 
 .form-control {
   height: 55px;
+}
+
+.lessonhead {
+   padding: 11px 0px;
 }
   }
 
