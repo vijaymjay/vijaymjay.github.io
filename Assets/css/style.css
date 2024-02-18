@@ -1058,6 +1058,10 @@ body::-webkit-scrollbar-thumb {
     height: 90%;
   }
 
+  .signupsecion {
+    height: 90%;
+  }
+
   .footersecion {
     height: 10%;
   }
@@ -1325,6 +1329,10 @@ body::-webkit-scrollbar-thumb {
   width: 70%;
 }
 
+.leftloginc {
+  width: 50%;
+}
+
     
   }
 
@@ -1503,6 +1511,7 @@ body::-webkit-scrollbar-thumb {
 
 .signupbox{
   justify-content: center;
+  padding: 40px;
 }
 
 .form-control {
@@ -1519,6 +1528,19 @@ body::-webkit-scrollbar-thumb {
 
 .leftc {
   width: 52%;
+}
+
+.leftloginc {
+  width: 50%;
+}
+
+.loginleft {
+  padding: 15px;
+}
+
+
+.signupsecion {
+  height: auto;
 }
 
 
@@ -1797,6 +1819,12 @@ body::-webkit-scrollbar-thumb {
 
 .signupinnerbox {
   padding-left:0px;
+}
+
+
+.signupbox{
+  justify-content: center;
+  padding:27px 3px;
 }
             
       }
