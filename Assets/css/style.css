@@ -1524,6 +1524,7 @@ body::-webkit-scrollbar-thumb {
 
 .loginbox {
   justify-content: center;
+  padding: 40px;
 }
 
 .leftc {
@@ -1543,7 +1544,9 @@ body::-webkit-scrollbar-thumb {
   height: auto;
 }
 
-
+.loginsecion {
+  height: auto;
+}
 
   }
 
@@ -1825,6 +1828,10 @@ body::-webkit-scrollbar-thumb {
 .signupbox{
   justify-content: center;
   padding:27px 3px;
+}
+
+.loginbox {
+  padding: 47px 1px;
 }
             
       }
