@@ -31,6 +31,12 @@
     --rose: rgb(230, 157, 194);
 }
 
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+   box-sizing: border-box; 
+}
+
 
 .font18{
     font-size: 18px !important;
@@ -924,7 +930,7 @@ body::-webkit-scrollbar-thumb {
 
 .needaccount {
   color: #000;
-    padding-bottom: 27px;
+    padding-bottom: 11px;
     border-bottom: 1px solid #b2b2b2;
 }
 
@@ -937,7 +943,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 24px;
     color: #000;
     font-weight: 500;
-    margin: 20px 0px 50px 0px;
+    margin: 7px 0px 0px 0px;
 }
 
 .loginleft {
@@ -951,15 +957,15 @@ body::-webkit-scrollbar-thumb {
   background-color: #f2f2f2;
 }
 
-.loginleft img { width: 32%;  }
+.loginleft img { width: 45%;  }
 
 .footersecion {
   background-color: #0a0a0a;
   display: flex;
-    justify-content: center;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 46px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .form-label {
@@ -989,9 +995,9 @@ body::-webkit-scrollbar-thumb {
     background-color: var(--danger);
 }
 
-.login-btn {text-align: center; margin-top: 70px;}
+.login-btn {text-align: center; margin-top: 28px;}
 
-.login-btn  div { color: #939393; margin-top: 31px;}
+.login-btn  div { color: #939393;}
 
 .straight-line {   border-bottom: 1px solid #939393; /* You can adjust the color, thickness, and style as needed */
   width: 100%; /* This makes the line span the entire width of its container */
@@ -1008,11 +1014,24 @@ body::-webkit-scrollbar-thumb {
   }
 
   .loginbox {
-    padding: 132px 200px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
   }
 
   .signupbox {
-    padding: 130px 234px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .logininnerbox {
+    padding-left: 30px;
+  }
+
+  .signupinnerbox {
+    padding-left: 30px;
   }
 
   .rightc {
@@ -1020,7 +1039,7 @@ body::-webkit-scrollbar-thumb {
     margin-left: auto;
   }
 
-  .socialicon, .socialsignupicon { margin-top: 50px; text-align: center;}
+  .socialicon, .socialsignupicon { margin-top: 22px; text-align: center;}
 
   .socialicon img, .socialsignupicon img {width: 19%;
     border: 1px solid #b2b2b2;
@@ -1029,12 +1048,42 @@ body::-webkit-scrollbar-thumb {
     margin-right: 29px;
   }
 
+  .loginpageheight {
+    height: 100%;
+    background: #0a0a0a;
+
+  }
+
+  .loginsecion {
+    height: 90%;
+  }
+
+  .footersecion {
+    height: 10%;
+  }
+
  
 
- .loginsecion {height: 90vh;}
+ /* .loginsecion {height: 90vh;} */
 
 
 /*************** End login   ************************/
+
+/**************** Dashboard ************************/
+
+.learningdashboardsection {
+  background-color: #070707;
+}
+
+.dashboardInnerBox {
+  border-radius: 2px;
+    background-color: #0F0F0F;
+    padding: 10px 0px;
+    margin: 46px 0px;
+}
+
+/*************** End dashboard **********************/
+
 
 
 
@@ -1061,19 +1110,23 @@ body::-webkit-scrollbar-thumb {
       padding: 6px;
       margin-right: 12px;
   }
+
+  .profileicon1 {
+    width: 12%!important;
+    padding: 6px;
+    margin-right: 4px;
+  }
     
   .profilearrow {
     width: 9%!important;
     padding: 12px;
 }
 
-.loginbox {
-  padding: 193px 338px
-}
+
 
 .socialsignupicon img {
   padding: 12px 35px;
-  width: 15%;
+  width: 18%;
 }
 
 
@@ -1111,16 +1164,14 @@ body::-webkit-scrollbar-thumb {
   padding: 8px;
 }
 
-.loginbox {
-  padding:193px 234px
-}
+
 
 .socialicon img {
   width: 18%;
 }
 
 .socialsignupicon img {
-  width: 21%;
+  width: 16%;
 }
 
 .form-control {
@@ -1157,16 +1208,12 @@ body::-webkit-scrollbar-thumb {
   padding: 8px;
 }
 
-.loginbox {
-  padding: 132px 116px;
-}
 
-.signupbox {
-  padding: 130px 91px;
-}
+
+
 
 .socialsignupicon img {
-  width: 20%;
+  width: 17%;
 }
 
 .form-control {
@@ -1250,25 +1297,34 @@ body::-webkit-scrollbar-thumb {
     padding: 8px;
 }
 
-.loginbox {
-  padding: 132px 31px;
-}
+
 
 .complesson span {
   display: none;
 }
 
-.signupbox {
-  padding: 130px 18px;
-}
+
 
 .socialsignupicon img {
-  width: 23%;
+  width: 19%;
 }
 
 .form-control {
   height: 55px;
 }
+
+.logininnerbox {
+  padding-left: 14px;
+}
+
+.signupinnerbox {
+  padding-left: 14px;
+}
+
+.leftc {
+  width: 70%;
+}
+
     
   }
 
@@ -1421,29 +1477,32 @@ body::-webkit-scrollbar-thumb {
 
 .dropdown-menu {transform: translate3d(-11px, 51px, 0px)!important;}
 
-.loginbox {
-  padding: 132px 116px;
-}
+
 
 .loginleftcenter {
   display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 167px
+  
+}
+
+.loginleft img {
+  width: 32%;
 }
 
 .lbtn {
   padding: 6px 12px;
 }
 
-.loginsecion {height: 140vh;}
 
-.signupbox {
-  padding: 130px 95px;
-}
+
 
 .socialsignupicon img {
-  width: 18%;
+  width: 17%;
+}
+
+.signupbox{
+  justify-content: center;
 }
 
 .form-control {
@@ -1454,6 +1513,15 @@ body::-webkit-scrollbar-thumb {
   padding: 11px 0px;
 }
 
+.loginbox {
+  justify-content: center;
+}
+
+.leftc {
+  width: 52%;
+}
+
+
 
   }
 
@@ -1463,6 +1531,10 @@ body::-webkit-scrollbar-thumb {
       margin-left: -20px;
       height: 59px;
      
+  }
+
+  .leftc {
+    width: 84%;
   }
 
     .navbar-nav { margin-top: 38px;  }
@@ -1699,9 +1771,7 @@ body::-webkit-scrollbar-thumb {
     margin-left: 0px;
    }
 
-   .loginbox {
-    padding: 132px 9px;
-}
+  
 
 .socialicon img {
   width: 20%;
@@ -1709,15 +1779,13 @@ body::-webkit-scrollbar-thumb {
   margin-right: 26px;
  }
 
- .loginsecion {height: 140vh;}
 
- .signupbox {
-  padding: 130px 7px;
-}
+
+ 
 
 .socialsignupicon img {
   padding: 12px 30px;
-  width: 25%;
+  width: 20%;
 }
 .form-control {
   height: 55px;
@@ -1726,6 +1794,10 @@ body::-webkit-scrollbar-thumb {
 .lessonhead {
   padding: 11px 0px;
 }
+
+.signupinnerbox {
+  padding-left:0px;
+}
             
       }
 
@@ -1733,6 +1805,11 @@ body::-webkit-scrollbar-thumb {
 
 
   @media screen and (max-width: 390px) {
+
+    .leftc {
+      width: 93%;
+    }
+  
 
     .logo {
       margin-left: -20px;
@@ -1910,7 +1987,7 @@ body::-webkit-scrollbar-thumb {
     margin-right: 15px;
    }
 
-   .loginsecion {height: 140vh;}
+ 
 
 
    .socialsignupicon img {
@@ -1924,6 +2001,10 @@ body::-webkit-scrollbar-thumb {
 
 .lessonhead {
    padding: 11px 0px;
+}
+
+.signupinnerbox {
+  padding-left:0px;
 }
   }
 
