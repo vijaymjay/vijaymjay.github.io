@@ -148,7 +148,7 @@ body {
 
 .aboutme {
 
-  font-size: 30px;
+  font-size: 24px;
     font-weight: 700;
     color: #fff;
 }
@@ -773,7 +773,14 @@ body::-webkit-scrollbar-thumb {
     padding-right: 3rem;
 }
 
+.lessondetailvideo { 
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .ld-focus-sidebar-collapsed > .ld-focus-main > .lessondetailvideo {
+  width: auto;
   padding-left: 190px;
     padding-right: 190px;
 }
@@ -921,6 +928,10 @@ body::-webkit-scrollbar-thumb {
       padding: 0px
     }
 
+    .lessongdetailvideo {
+      padding: 0px 3px 0px 3px;
+    }
+
 /************* end Lesson detail *****************/
 
 
@@ -1027,11 +1038,11 @@ body::-webkit-scrollbar-thumb {
   }
 
   .logininnerbox {
-    padding-left: 30px;
+    padding-left: 134px;
   }
 
   .signupinnerbox {
-    padding-left: 30px;
+    padding-left: 134px;
   }
 
   .rightc {
@@ -1139,6 +1150,16 @@ body::-webkit-scrollbar-thumb {
   height: 70px;
 }
 
+.lessondetailvideo {
+  width: 86%;
+}
+
+.ld-focus-sidebar-collapsed > .ld-focus-main > .lessondetailvideo {
+  width: 92%;
+}
+
+
+
  }
 
  @media (max-width: 2200.98px) { 
@@ -1165,7 +1186,7 @@ body::-webkit-scrollbar-thumb {
   
 .profilearrow {
   width: 9%!important;
-  padding: 8px;
+  padding: 11px;
 }
 
 
@@ -1181,6 +1202,15 @@ body::-webkit-scrollbar-thumb {
 .form-control {
   height: 55px;
 }
+
+.ld-focus-sidebar-collapsed > .ld-focus-main > .lessondetailvideo {
+  width: 96%;
+}
+.dropdown-menu { 
+  right: 301px;
+    top: 3px;
+}
+
  
  }
 
@@ -1194,6 +1224,11 @@ body::-webkit-scrollbar-thumb {
   .ld-focus-sidebar-collapsed > .ld-focus-main > .lessondetailvideo {
     padding-left: 5px;
       padding-right: 5px;
+      width: auto;
+  }
+
+  .lessondetailvideo {
+    width: auto;
   }
   
   .ld-focus-sidebar-collapsed > .ld-focus-main > .lessondetailtitle {
@@ -1209,7 +1244,7 @@ body::-webkit-scrollbar-thumb {
   
 .profilearrow {
   width: 12%!important;
-  padding: 8px;
+  padding: 9px;
 }
 
 
@@ -1437,7 +1472,7 @@ body::-webkit-scrollbar-thumb {
   display: block;
     width: 25px;
     height: 1px;
-    margin: 5px 0;
+    margin: 7px 0px 0px 0px;
     background-color: #fff;
     transition: all ease-in-out 250ms;
 }
@@ -1833,6 +1868,10 @@ body::-webkit-scrollbar-thumb {
 .loginbox {
   padding: 47px 1px;
 }
+
+.right-arrow .btn {
+  left: 8px;
+}
             
       }
 
@@ -2040,6 +2079,10 @@ body::-webkit-scrollbar-thumb {
 
 .signupinnerbox {
   padding-left:0px;
+}
+
+.right-arrow .btn {
+  left: 8px;
 }
   }
 
