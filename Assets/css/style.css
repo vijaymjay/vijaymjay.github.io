@@ -244,7 +244,7 @@ h6 {
 
 .bannercolor div{margin-bottom: 16px; font-size: 24px; line-height: 1.1;}
 
-.btn-large { margin-top: 64px;  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 37px; width: 300px; height: 68px; font-size: 28px;  display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1); }
+.btn-large { margin-top: 64px;  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 37px; width: 260px; height: 61px; font-size: 24px;  display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1); }
 
 .profiledescription {
     font-size: 16px; font-weight: 500; line-height: 1.6;  
@@ -352,7 +352,7 @@ video {
 
  /************ Course Detail ******************/   
 
-.btn-enroll-large { margin-top: 80px;  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 37px; padding: 11px 47px; font-size: 28px;  display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1); }
+.btn-enroll-large { margin-top: 80px;  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 37px; padding: 11px 47px; font-size: 25px;  display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1); }
 
 
 .bannerenrollcolor { background-color: #0A0A0A!important; padding:148px 50px ; }
@@ -1096,13 +1096,43 @@ body::-webkit-scrollbar-thumb {
 
 .learningdashboardsection {
   background-color: #070707;
+  height: 80%;
 }
 
 .dashboardInnerBox {
   border-radius: 2px;
-    background-color: #0F0F0F;
-    padding: 10px 0px;
-    margin: 46px 0px;
+  background-color: #0F0F0F;
+  padding: 38px 51px;
+  border-radius: 10px 
+}
+
+.footerinnersection {
+  height: 10%;
+}
+
+.headerinnersection {
+  background-color: #18181A;
+  height: 10%;
+}
+
+.leftsideinnerbox {
+  background-color: #18181A;
+  border-radius: 10px;
+}
+
+.innerline {
+  text-align: left;
+  padding: 20px 0px 20px 35px;
+  font-size: 20px;
+  border-bottom: 1px solid #25252a;
+}
+
+.innerlineend {
+  padding: 33px 0px;
+}
+
+.inneractive {
+  color: #ff412d;
 }
 
 /*************** End dashboard **********************/
