@@ -244,7 +244,7 @@ h6 {
 
 .bannercolor div{margin-bottom: 16px; font-size: 24px; line-height: 1.1;}
 
-.btn-large { margin-top: 64px; text-transform: uppercase; background-color:var(--danger); border-radius: 12px; padding: 20px 32px; font-size: 14px; font-weight: 700; display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1); }
+.btn-large { margin-top: 64px;  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 37px; width: 300px; height: 68px; font-size: 28px;  display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1); }
 
 .profiledescription {
     font-size: 16px; font-weight: 500; line-height: 1.6;  
@@ -298,7 +298,15 @@ video {
 
  .learningsection .card-body { min-height: 230px; }
 
- .signcolor { color: #938c9a!important; text-decoration: none;  }
+ .signcolor { color: #18181A!important;
+  text-decoration: none; }
+
+  .loginbutton {
+    background-color: #fff;
+    padding: 11px 15px;
+    border-radius: 20px;
+    margin-left: 51px;
+  }
 
  .signd > a:nth-child(1){
   margin-right: 6px;
@@ -344,7 +352,7 @@ video {
 
  /************ Course Detail ******************/   
 
-.btn-enroll-large { margin-top: 80px; background-color:var(--danger); border-radius: 12px; padding: 11px 47px; font-size: 28px; font-weight: 700; display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1); }
+.btn-enroll-large { margin-top: 80px;  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 37px; padding: 11px 47px; font-size: 28px;  display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1); }
 
 
 .bannerenrollcolor { background-color: #0A0A0A!important; padding:148px 50px ; }
@@ -1583,6 +1591,10 @@ body::-webkit-scrollbar-thumb {
   height: auto;
 }
 
+.loginbutton {
+  margin-left: -42px;
+}
+
   }
 
   @media screen and (max-width: 479px) {
@@ -1871,6 +1883,10 @@ body::-webkit-scrollbar-thumb {
 
 .right-arrow .btn {
   left: 8px;
+}
+
+.loginbutton {
+  margin-left: 3px;
 }
             
       }
