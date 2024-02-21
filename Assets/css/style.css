@@ -558,7 +558,7 @@ video {
 .lbtn { 
 
   background-color: #2f2c30;
-    padding: 6px 40px;
+    padding: 6px 18px;
     border-radius: 21px;
 }
 
@@ -1138,6 +1138,30 @@ body::-webkit-scrollbar-thumb {
 /*************** End dashboard **********************/
 
 
+/**************** Order ********************/
+
+.ordertable table {
+  width: 100%;
+}
+
+.ordertable table, td, th {  
+  border: 1px solid #25252a;
+  text-align: left;
+}
+
+.ordertable th, td {
+  padding: 15px;
+}
+
+.address {
+  border-right: 1px solid #25252a;
+}
+
+.addmobile img {width: 5%;
+  margin-right: 12px;}
+
+/*************  end order ********************/
+
 
 
 
@@ -1625,6 +1649,15 @@ body::-webkit-scrollbar-thumb {
   margin-left: -42px;
 }
 
+.learningdashboardsection {
+  height: auto;
+}
+
+
+.addmobile {
+  margin-top: 41px;
+}
+
   }
 
   @media screen and (max-width: 479px) {
@@ -1918,6 +1951,20 @@ body::-webkit-scrollbar-thumb {
 .loginbutton {
   margin-left: 3px;
 }
+
+.learningdashboardsection {
+  height: auto;
+}
+
+.dashboardInnerBox {
+  padding: 38px 8px;
+}
+
+.addmobile {
+  margin-top: 41px;
+}
+
+
             
       }
 
@@ -2129,6 +2176,18 @@ body::-webkit-scrollbar-thumb {
 
 .right-arrow .btn {
   left: 8px;
+}
+
+.learningdashboardsection {
+  height: auto;
+}
+
+.dashboardInnerBox {
+  padding: 38px 8px;
+}
+
+.addmobile {
+  margin-top: 41px;
 }
   }
 
