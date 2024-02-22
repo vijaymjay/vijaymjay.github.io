@@ -1430,10 +1430,16 @@ body::-webkit-scrollbar-thumb {
   width: 50%;
 }
 
+.innerline {
+  padding: 20px 16px 20px 19px;
+}
+
     
   }
 
  @media screen and (max-width: 991px){ 
+
+ 
 
   .completecontinue { height: 59px; }
 
@@ -1564,7 +1570,7 @@ body::-webkit-scrollbar-thumb {
 
 .signcolor { margin-left: 0px;  text-decoration: none; }
 
-.signd { margin-top: 10px;  margin-left: -32px;}
+.signd { margin-top: 10px;  margin-left: -21px;}
 
 .ld-focus-sidebar-collapsed > .ld-focus-main > .lessondetailvideo {
   padding-left: 5px;
@@ -1656,6 +1662,10 @@ body::-webkit-scrollbar-thumb {
 
 .addmobile {
   margin-top: 41px;
+}
+
+.innerline {
+  padding: 20px 0px 20px 35px;
 }
 
   }
@@ -1876,7 +1886,7 @@ body::-webkit-scrollbar-thumb {
 
   .signcolor { margin-left: 0px; padding-left: 8px; padding-right: 8px; text-decoration: none; }
 
-  .signd { margin-top: 10px; margin-left: 0px; }
+  .signd { margin-top: 10px; margin-left: 16px; }
 
   .ld-course-navigation-list { height: 190%;  }
 
@@ -2118,7 +2128,7 @@ body::-webkit-scrollbar-thumb {
 
   .signcolor { margin-left: 0px; padding-left: 8px; padding-right: 8px; text-decoration: none; }
 
-  .signd { margin-top: 10px; margin-left: 0px; }
+  .signd { margin-top: 10px; margin-left: 16px; }
 
   .ld-course-navigation-list { height: 190%;  }
 
