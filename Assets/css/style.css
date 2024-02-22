@@ -1112,7 +1112,7 @@ body::-webkit-scrollbar-thumb {
 
 .headerinnersection {
   background-color: #18181A;
-  height: 10%;
+  /* height: 10%; */
 }
 
 .leftsideinnerbox {
