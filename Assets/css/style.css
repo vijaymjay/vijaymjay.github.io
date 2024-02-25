@@ -100,6 +100,14 @@
     font-size:65px !important
   }
 
+  .redcolor {
+    color:var(--danger);
+  }
+
+  .fwb {
+    font-weight: bold;
+  }
+
   .paddingx4 {
     padding-right: 1.5rem!important;
     padding-left: 1.5rem!important;
@@ -1140,6 +1148,12 @@ body::-webkit-scrollbar-thumb {
 
 /**************** Order ********************/
 
+.ordertable {
+  padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
 .ordertable table {
   width: 100%;
 }
@@ -1162,7 +1176,83 @@ body::-webkit-scrollbar-thumb {
 
 /*************  end order ********************/
 
+/**************** address ***************/
 
+.addresscolor {
+  color: #938c9a;
+  padding-top: 50px;
+  font-size: 16px;
+}
+
+.learningbillingsection {
+  height: auto;
+}
+
+.billingbox {
+  display: flex;
+}
+
+.billing-label {
+  color: #fff;
+  margin-left: 12px;
+}
+
+.formvaluebox {
+  background-color: #0F0F0F;
+  border: 1px solid #25252a;
+  color: #938c9a;
+}
+
+.formvaluebox:focus{
+  background-color: #0F0F0F;
+  border: 1px solid #25252a;
+  color: #938c9a;
+     box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25); 
+}
+
+.dropdownselect {
+  background-color: #0F0F0F;
+  color: #938c9a;
+  height: 55px;
+    border-radius: 29px;
+    border: 1px solid #25252a;
+}
+
+.dropdownselect:focus {
+  border-color:midnightblue;
+}
+
+.billinginnerbox {
+  padding-bottom:50px;
+}
+
+.mustbe8 {
+  color: #47434a;
+    font-size: 12px;
+    float: right;
+}
+
+::placeholder {
+  color: #47434a;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12-18 */
+  color: #47434a;
+}
+
+.passwordcollection {
+  position: relative;
+}
+
+.passwordcollection i {
+  position: absolute;
+    top: 40px;
+    right: 20px;
+    color: #938c9a;
+}
+
+/**************** end address ***************/
 
 
 @media (max-width: 2600.98px) { 
@@ -1668,6 +1758,16 @@ body::-webkit-scrollbar-thumb {
   padding: 20px 0px 20px 35px;
 }
 
+.ordertable {
+  padding-right: 1rem;
+  padding-left: 0rem;
+  padding-top: 3rem;
+}
+
+.address {
+  border-right: none;
+}
+
   }
 
   @media screen and (max-width: 479px) {
@@ -1972,6 +2072,12 @@ body::-webkit-scrollbar-thumb {
 
 .addmobile {
   margin-top: 41px;
+}
+
+.ordertable {
+  padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 3rem;
 }
 
 
