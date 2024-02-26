@@ -255,13 +255,21 @@ h6 {
 .btn-large { margin-top: 64px;  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 37px; width: 260px; height: 61px; font-size: 24px;  display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1); }
 
 .profiledescription {
-    font-size: 16px; font-weight: 500; line-height: 1.6;  
+    font-size: 16px;  line-height: 1.6;  
+    height:616px;
+    display: flex;
+    align-items: center;
 }
 
-.profiledescriptionspace > div img {width: 87%;
+.aboutmedesc {
+  display: flex;
+  align-items: center;
+}
+
+.profiledescriptionspace > div img {width: 75%;
  
   border-radius: 20px;
-  margin-bottom: 57px;}
+  }
 
   .profilesection { background-color: #232027; }
 
@@ -283,11 +291,12 @@ video {
 
 .learningsection .card img {border-radius: 18px 18px 0px 0px;}
 
-.learning { color: var(--danger); letter-spacing: -.04em; line-height: 1; font-size: 64px; font-weight: 700; text-transform: uppercase;
+.learning { color: var(--danger); letter-spacing: -.04em; line-height: 1; font-size: 80px; font-weight: 700;
     margin: 100px 0px; text-align: center;
  }
 
-  .card {background-color: #232026;}
+
+ .card {background-color: #232026;}
 
  .cardhome {font-size: 24px; line-height: 1.1; letter-spacing: -.04em; font-weight: 700; text-transform: uppercase; margin-top: 20px; margin-bottom: 20px; margin-left: 10px;}
 
@@ -295,7 +304,7 @@ video {
 
  .startl { margin-top: 100px; text-transform: uppercase; font-size: 21px;  text-align:center; font-weight: 200;}
 
- .btn-entroll {  background-image: none; border-radius: 12px; text-align:center; padding: 16px 72px;
+ .btn-entroll {  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 12px; text-align:center; padding: 16px 72px;
     font-size: 22px; display: inline-block; background-color:var(--danger);  letter-spacing: -.04em; line-height: 1; font-weight: 700;  margin-bottom: 100px; transition: background-color .4s cubic-bezier(.23, 1, .32, 1);  }
 
  .footer { font-size: 16px; font-weight: 500; }
@@ -311,9 +320,9 @@ video {
 
   .loginbutton {
     background-color: #fff;
-    padding: 11px 15px;
-    border-radius: 20px;
-    margin-left: 51px;
+    padding: 11px 26px;
+    border-radius: 35px;
+    
   }
 
  .signd > a:nth-child(1){
@@ -1174,6 +1183,14 @@ body::-webkit-scrollbar-thumb {
 .addmobile img {width: 5%;
   margin-right: 12px;}
 
+  .mailicon img {
+    width: 25px;
+    margin-right: 8px;
+    height: 19px;
+    margin-top: 5px;
+  }
+ 
+
 /*************  end order ********************/
 
 /**************** address ***************/
@@ -1348,7 +1365,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .socialsignupicon img {
-  width: 16%;
+  width: 18%;
 }
 
 .form-control {
@@ -1423,7 +1440,7 @@ body::-webkit-scrollbar-thumb {
    
 }
 
-    .learning { font-size: 47px;  }
+    
 
     .cardcourse { font-size: 25px; 
         margin-right: 1rem!important;
@@ -1523,6 +1540,10 @@ body::-webkit-scrollbar-thumb {
 .innerline {
   padding: 20px 16px 20px 19px;
 }
+.aboutmeimg {
+  display: flex;
+  align-items: center;
+}
 
     
   }
@@ -1547,9 +1568,10 @@ body::-webkit-scrollbar-thumb {
 
     .profiledescription { 
         font-size: 20px;
+        height:1022px;
      }
 
-     .learning { font-size:32px; margin: 58px 0px; }
+     .learning { font-size:51px; margin: 58px 0px; }
 
      .btn-entroll { padding: 15px 65px; font-size: 25px;  }
 
@@ -1581,6 +1603,12 @@ body::-webkit-scrollbar-thumb {
 
 
 .profiledescriptionspace > div img {width: 100%;  }
+
+.aboutmedesc {
+  margin-top: 30px;
+}
+
+
 
 .aboutdesc {
     
@@ -1768,6 +1796,9 @@ body::-webkit-scrollbar-thumb {
   border-right: none;
 }
 
+
+
+
   }
 
   @media screen and (max-width: 479px) {
@@ -1801,7 +1832,7 @@ body::-webkit-scrollbar-thumb {
         font-size: 18px;
      }
 
-     .learning { font-size:28px; margin: 40px 0px; } 
+     .learning { font-size:35px; margin: 40px 0px; } 
 
      .cardhome { font-size: 20px;  }
 
@@ -2080,6 +2111,10 @@ body::-webkit-scrollbar-thumb {
     padding-top: 3rem;
 }
 
+.aboutmedesc {
+  margin-top : 43px;
+}
+
 
             
       }
@@ -2305,6 +2340,15 @@ body::-webkit-scrollbar-thumb {
 .addmobile {
   margin-top: 41px;
 }
+
+.aboutmedesc {
+  margin-top : 43px;
+}
+
+.learning {
+  font-size: 30px;
+}
+
   }
 
  
