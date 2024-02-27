@@ -304,7 +304,7 @@ video {
 
  .startl { margin-top: 100px; text-transform: uppercase; font-size: 21px;  text-align:center; font-weight: 200;}
 
- .btn-entroll {  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 12px; text-align:center; padding: 16px 72px;
+ .btn-entroll {  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 37px; text-align:center; padding: 16px 72px;
     font-size: 22px; display: inline-block; background-color:var(--danger);  letter-spacing: -.04em; line-height: 1; font-weight: 700;  margin-bottom: 100px; transition: background-color .4s cubic-bezier(.23, 1, .32, 1);  }
 
  .footer { font-size: 16px; font-weight: 500; }
@@ -336,13 +336,13 @@ video {
 /********* End Home ***************/
 
 
-.btn-tab2 {  background-color: #232027; color: #ffffff; font-size: 15px;
-    font-weight: 700; border-radius: 0px 15px 15px 0px;  }
+.btn-tab2 {  background-color: #232027; color: #ffffff; font-size: 20px; letter-spacing: -.04em;
+    font-weight: 700; border-radius: 0px 37px 37px 0px;  }
 
-.btn-tab1 {  background-color: #232027; color: #ffffff; font-size: 15px;
-        font-weight: 700; border-radius: 15px 0px 0px 15px;  }
+.btn-tab1 {  background-color: #232027; color: #ffffff; font-size: 20px; letter-spacing: -.04em;
+        font-weight: 700; border-radius: 37px 0px 0px 37px;  }
 
-.learningcoursesection .active { background-color:var(--danger); }
+.learningcoursesection .active { background-image: linear-gradient(to right, #c20036 , #fc4836); }
 
 .learningcoursesection { background-color: #141316; padding-bottom: 55px; }
 
@@ -369,7 +369,8 @@ video {
 
  /************ Course Detail ******************/   
 
-.btn-enroll-large { margin-top: 80px;  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 37px; padding: 11px 47px; font-size: 25px;  display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1); }
+.btn-enroll-large {  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 37px; padding: 16px 72px; font-size: 22px;  display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1);  letter-spacing: -.04em;
+  font-weight: 700; }
 
 
 .bannerenrollcolor { background-color: #0A0A0A!important; padding:148px 50px ; }
@@ -416,7 +417,8 @@ video {
 
 .learningsection .spacedesc { margin-left: 16px; }
 
-.caboutdesc {font-size: 18px;}
+.caboutdesc {font-size: 16px;
+  line-height: 1.6;}
 
 
 .coursecurriculumsection { background-color: #181719; border-top: #393440 1px solid; border-bottom: #393440 1px solid; }
@@ -562,9 +564,9 @@ video {
   width: 75%;
 }
 
-.pad0 img {
+/* .pad0 img {
   width: 45px;
-}
+} */
 
 .lessonheaderright { height: 100%; width: 79.1%; }
 
@@ -735,7 +737,7 @@ body::-webkit-scrollbar-thumb {
 
 
 .sidebarheader {
-  background-color:   #ff412d;
+  background-image: linear-gradient(to right, #c20036 , #fc4836);
 }
 
 .sidebarheader {
@@ -870,7 +872,7 @@ body::-webkit-scrollbar-thumb {
 
 .dropdown-item:focus, .dropdown-item:hover {
   color: #ffff;
-    background-color: #ff412d;
+  background-image: linear-gradient(to right, #c20036 , #fc4836);
 }
 
 .lessonfile li {
@@ -941,7 +943,7 @@ body::-webkit-scrollbar-thumb {
 
 .profileinfo { padding: 12px 18px; }
 
-.profileicon { width: 7%!important;
+.profileicon { width: 7%;
   padding: 3px;
   margin-right: 12px;}
 
@@ -1144,6 +1146,8 @@ body::-webkit-scrollbar-thumb {
   border-bottom: 1px solid #25252a;
 }
 
+.innerline a { text-decoration: none; color: #fff;}
+
 .innerlineend {
   padding: 33px 0px;
 }
@@ -1290,7 +1294,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .profileicon {
-      width: 7%!important;
+      width: 7%;
       padding: 6px;
       margin-right: 12px;
   }
@@ -1348,14 +1352,16 @@ body::-webkit-scrollbar-thumb {
 
 
    .profileicon {
-    width: 7%!important;
+    width: 25px;
     padding: 3px;
     margin-right: 12px;
+    height: 29px;
+    margin-top: 2px;
 }
   
 .profilearrow {
   width: 9%!important;
-  padding: 11px;
+  padding: 12px;
 }
 
 
@@ -1406,9 +1412,18 @@ body::-webkit-scrollbar-thumb {
   }
 
   .profileicon {
-    width: 7%!important;
+    
+
+    width: 26px;
     padding: 3px;
     margin-right: 12px;
+    height: 28px;
+    margin-top: 2px;
+}
+
+.profileinfo {
+  padding: 12px 1px;
+
 }
   
 .profilearrow {
@@ -1438,6 +1453,21 @@ body::-webkit-scrollbar-thumb {
     margin-left: -20px;
     height: 70px;
    
+}
+
+.profileicon {
+    
+
+  width: 20px;
+  padding: 3px;
+  margin-right: 12px;
+  height: 23px;
+  margin-top: 2px;
+}
+
+.profileinfo {
+padding: 12px 1px;
+
 }
 
     
@@ -1502,7 +1532,7 @@ body::-webkit-scrollbar-thumb {
   }
   .profilearrow {
     width: 16%!important;
-    padding: 8px;
+    padding: 9px;
 }
 
 
@@ -1878,7 +1908,7 @@ body::-webkit-scrollbar-thumb {
 
         .bannerenrollcolor { padding: 148px 0px; }
 
-        .btn-enroll-large {     padding: 9px 126px;
+        .btn-enroll-large {     padding: 15px 94px;
             font-size: 22px; }
 
 
@@ -2160,7 +2190,7 @@ body::-webkit-scrollbar-thumb {
 
     .bannerenrollcolor { padding: 148px 0px; }
 
-    .btn-enroll-large {     padding: 9px 96px;
+    .btn-enroll-large {     padding: 15px 69px;
         font-size: 22px; }
 
         .paddingx5 {
