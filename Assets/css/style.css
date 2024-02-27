@@ -634,7 +634,7 @@ video {
  .interactive {
   font-size: 27px;
     font-weight: 700;
-    margin-top: 97px;
+    margin-top: 34px;
     margin-bottom: 25px;
  }
 
@@ -755,7 +755,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
    
     justify-content: start;
-    margin-top: 96px;
+    margin-top: 36px;
 }
 
 .right-arrow .btn {
@@ -788,20 +788,22 @@ body::-webkit-scrollbar-thumb {
 }
 
 .ld-focus-main {
-  margin-top: 50px;
+ 
   flex: 1 auto;
     margin-left: 415px;
-    width: calc(100% - 450px);
+    width: calc(100% - 415px);
     transition: margin-left 0.3s ease;
 }
 
-.lessondetailtitle {
-  padding-left: 3rem;
-    padding-right: 3rem;
+.ld-focus-main .ld-focus-content {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 5rem;
 }
 
+
 .lessondetailvideo { 
-  width: 90%;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -920,7 +922,7 @@ body::-webkit-scrollbar-thumb {
 .inactive img:nth-child(1),.inactive img:nth-child(2) { display: none;  }
 
 .completecontinue {
-  height: 39px;
+  
     text-transform: uppercase;
     border-radius: 20px;
     padding: 0 30px;
@@ -1323,13 +1325,8 @@ body::-webkit-scrollbar-thumb {
   height: 70px;
 }
 
-.lessondetailvideo {
-  width: 86%;
-}
 
-.ld-focus-sidebar-collapsed > .ld-focus-main > .lessondetailvideo {
-  width: 92%;
-}
+
 
 
 
@@ -1378,9 +1375,6 @@ body::-webkit-scrollbar-thumb {
   height: 55px;
 }
 
-.ld-focus-sidebar-collapsed > .ld-focus-main > .lessondetailvideo {
-  width: 96%;
-}
 .dropdown-menu { 
   right: 301px;
     top: 3px;
@@ -1505,9 +1499,7 @@ padding: 12px 1px;
       .plesson span {display: none;}
       .nlesson span {display: none;}
 
-      .interactive {
-        margin-top:63px;
-      }
+   
 
 
       .ld-focus-sidebar-collapsed > .ld-focus-main > .lessondetailvideo {
@@ -1695,7 +1687,7 @@ padding: 12px 1px;
 
 .interactive {
   font-size:25px;
-  margin-top:79px;
+  
 }
 
 .ld-focus-main {
@@ -1832,6 +1824,10 @@ padding: 12px 1px;
   }
 
   @media screen and (max-width: 479px) {
+
+    .interactive {
+      margin-top:63px;
+    }
 
     .logo {
       margin-left: -20px;
@@ -2144,7 +2140,9 @@ padding: 12px 1px;
 .aboutmedesc {
   margin-top : 43px;
 }
-
+.ld-focus-main .ld-focus-content {
+  padding: 2rem;
+}
 
             
       }
@@ -2377,6 +2375,10 @@ padding: 12px 1px;
 
 .learning {
   font-size: 30px;
+}
+
+.ld-focus-main .ld-focus-content {
+  padding: 1.3rem;
 }
 
   }
