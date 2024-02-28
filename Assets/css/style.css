@@ -344,7 +344,9 @@ video {
 
 .learningcoursesection .active { background-image: linear-gradient(to right, #c20036 , #fc4836); }
 
-.learningcoursesection { background-color: #141316; padding-bottom: 55px; }
+.learningcoursesection { background-color: #141316; min-height: 80%; }
+
+
 
 
 .learningcoursesection  .card {
@@ -752,9 +754,7 @@ body::-webkit-scrollbar-thumb {
 .btn-lesson-large { margin-top: 25px; margin-bottom: 25px; text-transform: uppercase; background-color:var(--danger); border-radius: 25px; padding: 6px 32px; font-size: 22px; font-weight: 700; display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1);   }
 
 .intercomplete { 
-  display: flex;
-   
-    justify-content: start;
+
     margin-top: 36px;
 }
 
@@ -929,6 +929,11 @@ body::-webkit-scrollbar-thumb {
     border-color: #232027;
     color: #666666;
     margin-bottom: 15px;
+    padding: 14px;
+}
+
+.dropsubmenu:hover > .dropdown-menu {
+  display: block;
 }
 
 #dropdownMenuButton1 {width: 100%;}
@@ -1275,11 +1280,19 @@ body::-webkit-scrollbar-thumb {
     color: #938c9a;
 }
 
+.yourcourse {
+  font-size: 32px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
 /**************** end address ***************/
 
 
 @media (max-width: 2600.98px) { 
-    .cousepricebox { padding: 0 3rem;  margin-bottom: 3rem; }
+    .cousepricebox {  margin-bottom: 3rem; }
 
     
 
@@ -1349,15 +1362,15 @@ body::-webkit-scrollbar-thumb {
 
 
    .profileicon {
-    width: 25px;
+    width: 22px;
     padding: 3px;
     margin-right: 12px;
-    height: 29px;
-    margin-top: 2px;
+    height: 25px;
+    margin-top: 4px;
 }
   
 .profilearrow {
-  width: 9%!important;
+  width: 8%!important;
   padding: 12px;
 }
 
@@ -1376,8 +1389,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .dropdown-menu { 
-  right: 301px;
-    top: 3px;
+  right: 343px;
+    top: 1px;
 }
 
  
@@ -1408,11 +1421,11 @@ body::-webkit-scrollbar-thumb {
   .profileicon {
     
 
-    width: 26px;
+    width: 22px;
     padding: 3px;
     margin-right: 12px;
-    height: 28px;
-    margin-top: 2px;
+    height: 25px;
+    margin-top: 4px;
 }
 
 .profileinfo {
@@ -1421,8 +1434,8 @@ body::-webkit-scrollbar-thumb {
 }
   
 .profilearrow {
-  width: 12%!important;
-  padding: 9px;
+  width: 10%!important;
+  padding: 10px;
 }
 
 
@@ -1452,11 +1465,11 @@ body::-webkit-scrollbar-thumb {
 .profileicon {
     
 
-  width: 20px;
+  width: 16px;
   padding: 3px;
   margin-right: 12px;
-  height: 23px;
-  margin-top: 2px;
+  height: 18px;
+  margin-top: 4px;
 }
 
 .profileinfo {
@@ -1524,7 +1537,8 @@ padding: 12px 1px;
   }
   .profilearrow {
     width: 16%!important;
-    padding: 9px;
+    padding: 11px;
+    margin-top: -1px;
 }
 
 
@@ -1574,7 +1588,7 @@ padding: 12px 1px;
 
  
 
-  .completecontinue { height: 59px; }
+  
 
   .logo {
     margin-left: -20px;
