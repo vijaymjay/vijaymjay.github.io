@@ -1290,6 +1290,23 @@ body::-webkit-scrollbar-thumb {
 
 /**************** end address ***************/
 
+.progress-bar {
+  background-color: #ff412d;
+}
+
+.progress {
+  background-color: #4f455a;
+  height: 12px;
+}
+
+.mycomplete {
+  color: #ff412d ;
+  text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+
 
 @media (max-width: 2600.98px) { 
     .cousepricebox {  margin-bottom: 3rem; }
