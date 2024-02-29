@@ -924,17 +924,17 @@ body::-webkit-scrollbar-thumb {
 .completecontinue {
   
     text-transform: uppercase;
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 0 30px;
     border-color: #232027;
     color: #666666;
     margin-bottom: 15px;
-    padding: 14px;
+    padding: 14px 35px;
 }
 
-.dropsubmenu:hover > .dropdown-menu {
+/* .dropsubmenu:hover > .dropdown-menu {
   display: block;
-}
+} */
 
 #dropdownMenuButton1 {width: 100%;}
 
@@ -1292,11 +1292,13 @@ body::-webkit-scrollbar-thumb {
 
 .progress-bar {
   background-color: #ff412d;
+  border-radius:.50rem;
 }
 
 .progress {
   background-color: #4f455a;
   height: 12px;
+  border-radius:.50rem;
 }
 
 .mycomplete {
@@ -1332,14 +1334,19 @@ body::-webkit-scrollbar-thumb {
   }
 
   .profileicon1 {
-    width: 12%!important;
-    padding: 6px;
-    margin-right: 4px;
+    width: 12%;
+      padding: 6px;
+      margin-right: 12px;
   }
     
   .profilearrow {
     width: 9%!important;
     padding: 12px;
+}
+
+.profilearrow1 {
+  width: 12%!important;
+  padding: 12px;
 }
 
 
@@ -1598,6 +1605,7 @@ padding: 12px 1px;
   align-items: center;
 }
 
+
     
   }
 
@@ -1605,6 +1613,7 @@ padding: 12px 1px;
 
  
 
+  
   
 
   .logo {
@@ -1674,7 +1683,7 @@ padding: 12px 1px;
 
 .lessonheaderright > div { font-size: 16px;}
 
-#dropdownMenuButton1 img { width: 30px;}
+#dropdownMenuButton1 img { width: 25px; margin-right: 1px;}
 
 .plesson span {display: none;}
 
@@ -1785,7 +1794,7 @@ padding: 12px 1px;
 
 .signupbox{
   justify-content: center;
-  padding: 40px;
+  padding: 90px 1px;
 }
 
 .form-control {
@@ -1798,7 +1807,7 @@ padding: 12px 1px;
 
 .loginbox {
   justify-content: center;
-  padding: 40px;
+  padding: 90px 1px;
 }
 
 .leftc {
@@ -2135,11 +2144,11 @@ padding: 12px 1px;
 
 .signupbox{
   justify-content: center;
-  padding:27px 3px;
+  padding:90px 1px;
 }
 
 .loginbox {
-  padding: 47px 1px;
+  padding: 90px 1px;
 }
 
 .right-arrow .btn {
