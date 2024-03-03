@@ -1308,6 +1308,43 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+/************ my course ***************/
+
+.profileiconcourse { width: 14px;
+  height: 15px;
+  margin-top: 8px;
+  margin-right: 8px;
+ }
+
+ .profilearrowcourse {
+  width: 12px;
+    height: 12px;
+    margin-top: 10px;
+    margin-left: 7px
+ }
+
+ .signd  {
+  position: relative;
+ }
+
+ .signd .dropdown-menu {
+  top: -22px;
+    left: -56px;
+ }
+
+ .coursedeleteprice > del {
+  font-size: 25px;
+    font-weight: 200;
+    margin-top: 15px;
+    margin-left: 7px
+ }
+
+ .mobilemymenu {display: none;}
+ .desktopmymenu {display: block;}
+
+
+/************ end my course ***************/
+
 
 
 @media (max-width: 2600.98px) { 
@@ -1413,9 +1450,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .dropdown-menu { 
-  right: 343px;
+  
     top: 1px;
 }
+
+
 
  
  }
@@ -1494,6 +1533,14 @@ body::-webkit-scrollbar-thumb {
   margin-right: 12px;
   height: 18px;
   margin-top: 4px;
+}
+
+.profileiconcourse {
+  margin-top: 5px;
+}
+
+.profilearrowcourse {
+  margin-top:8px;
 }
 
 .profileinfo {
@@ -1683,7 +1730,12 @@ padding: 12px 1px;
 
 .lessonheaderright > div { font-size: 16px;}
 
-#dropdownMenuButton1 img { width: 25px; margin-right: 1px;}
+
+
+.profileiconcourse {
+  width: 16px;
+    margin-right: 7px;
+}
 
 .plesson span {display: none;}
 
@@ -1858,8 +1910,40 @@ padding: 12px 1px;
   border-right: none;
 }
 
+.signd .dropdown-menu {
+  position: relative;
+    top: -40px;
+    left: 10px;
+
+    background-color:unset;
+    border:unset !important;
+    padding-bottom:15px;
+    transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
+}
 
 
+
+.dropdown-menu .show{
+  display: block;
+ opacity: 1;
+}
+
+.mobilemymenu {display: block;}
+ .desktopmymenu {display: none;}
+
+ .submenu {
+  display: none;
+  opacity: 0;
+  transform: translateY(-100%); /* Move the menu off-screen to the left */
+    transition: transform 0.3s ease-in-out; /* Animate the transform property */
+ }
+
+ .submenu.open {
+  display: block;
+  opacity: 1;
+  max-height: 200px; /* Example value, adjust based on your content */
+  transform: translateY(0);
+ }
 
   }
 

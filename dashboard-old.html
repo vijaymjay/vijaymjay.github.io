@@ -44,6 +44,8 @@
               <a class="nav-link navtext" href="https://www.youtube.com/@MoveShapes/videos" target="_blank">Tutorials</a>
             </li>
             <li class="nav-item  signd">
+
+              <div class="desktopmymenu">
                 <button class="btn pad0 px-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     
                     
@@ -63,6 +65,28 @@
                     <li><a class="dropdown-item logout" href="#"><img src="Assets/images/Logout.png">Logout</a></li>
                    
                   </ul>
+                </div>
+
+                <div class="mobilemymenu">
+
+                  <button class="btn toggle-button" type="button">
+                    <div class="d-flex" >
+                      <img class="profileiconcourse" src="Assets/images/profileicon.png">
+                      <div class="profilename">Peter Arumugam</div>
+                      <img class="profilearrowcourse" src="Assets/images/Asset8.png">
+                  </div>
+                  </button>
+
+                  <ul class="submenu">
+                    <li><a class="dropdown-item mycourse" href="mycourse.html"><img src="Assets/images/courses2x.png">My Courses</a></li>
+                 
+                    <li><a class="dropdown-item logout" href="#"><img src="Assets/images/Logout.png">Logout</a></li>
+                   
+                  </ul>
+
+
+                </div>
+
 
             </li>
           </ul>
@@ -155,7 +179,11 @@
   </div>
 
 
- 
+ <script>
+  document.querySelector('.toggle-button').addEventListener('click', function() {
+ document.querySelector('.submenu').classList.toggle('open');
+});
+ </script>
 
   
   <script src="Assets/js/script.js"></script>
