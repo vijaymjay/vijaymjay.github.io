@@ -358,9 +358,73 @@ video {
     
 .learningcoursesection .card img { max-width: 100%;}
 
-.cardcourse { font-size: 25px; line-height: 1.1; letter-spacing: -.04em; font-weight: 700;  margin-top: 20px; margin-bottom: 20px; margin-left: 10px; text-align: center; 
-  
+.cardcourse { font-size: 25px; line-height: 1.1; letter-spacing: -.04em; font-weight: 700;  margin-top: 20px; margin-bottom: 20px;  
 }
+
+.ulcourse ul li img { margin-right: 8px;
+  border-radius: unset;
+  width: 3%; }
+
+  .ulcourse ul li {padding-bottom: 9px; }
+
+  .ulcourse ul {  border-bottom: 1px solid #938c9a; padding-bottom:12px; }
+
+.coursetidesc { border-bottom: 1px solid #938c9a; padding-bottom: 18px; color: #A0a0a0; }
+
+.btn-course {font-size: 30px;
+  font-weight: 700;
+  border-radius: 26px;
+  width: 120px;
+  background-image: linear-gradient(to right, #c20036 , #fc4836); }
+
+.delcourse {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.coursebundletext {
+  font-size: 27px;
+    font-weight: 700;
+}
+
+.bundle {
+  position: absolute;
+    width: 100%;
+    top: 327px;
+    text-align: center;
+}
+.bundle span {
+  margin-left: 18px;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.coursebundlelist img {width: 69%;
+  margin-left: 13px;}
+
+.bundle img {
+  width: 6%;
+}
+
+.courselearnmore {  color: #fff;
+  text-decoration: none;
+  font-size: 15pt;
+  width: 110px;
+  border-style: solid;
+  border-width: 2pt 0;
+  border-image: linear-gradient(to right, #c20036 , #fc4836) 1;
+  border-top: none;
+  padding-bottom: 4px;
+  margin-left: auto;
+ 
+ cursor: pointer;
+}
+
+.courselearnmore:hover { color:#fff;}
+
+.cousebullet { color: #A0a0a0; margin-bottom: 2px; margin-bottom:18px; }
+
+.languagecourse { color: #A0a0a0; margin-left: 16px; }
 
 .btn-course-large { margin-top: 25px; margin-bottom: 25px; background-color:var(--danger); border-radius: 12px; padding: 14px 32px; font-size: 22px; font-weight: 700; display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1);   }
 
@@ -370,6 +434,10 @@ video {
     .learningcoursetab .btn:hover { color: #fff;}
 
  /************ Course Detail ******************/   
+
+ .coursetitle1 {  text-transform: uppercase; font-size: 17px;
+  font-weight: 700; border-bottom: 1px solid red;
+  padding-bottom: 14px; color: #727272; }
 
 .btn-enroll-large {  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 37px; padding: 16px 72px; font-size: 22px;  display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1);  letter-spacing: -.04em;
   font-weight: 700; }
@@ -1317,8 +1385,8 @@ body::-webkit-scrollbar-thumb {
  }
 
  .profilearrowcourse {
-  width: 12px;
-    height: 12px;
+  width: 9%;
+    height: 9%;
     margin-top: 10px;
     margin-left: 7px
  }
@@ -1431,7 +1499,8 @@ body::-webkit-scrollbar-thumb {
 }
   
 .profilearrow {
-  width: 8%!important;
+  width: 9%;
+  height: 9%;
   padding: 12px;
 }
 
@@ -1652,7 +1721,26 @@ padding: 12px 1px;
   align-items: center;
 }
 
+.bundle {
+  top: 207px;
+  margin-top: -12px;
+}
 
+.coursebundletext {
+  font-size: 19px;
+}
+
+.bundle span {
+  font-size: 26px;
+}
+
+.btn-course {
+  font-size: 22px;
+  width: 95px;
+}
+.delcourse {
+  font-size: 22px;
+}
     
   }
 
@@ -1945,6 +2033,11 @@ padding: 12px 1px;
   transform: translateY(0);
  }
 
+ .bundle {
+  top: 368px;
+  margin-top: -12px;
+}
+
   }
 
   @media screen and (max-width: 479px) {
@@ -2153,7 +2246,15 @@ padding: 12px 1px;
 
   .dropdown { padding: 7px; }
 
-  .cousepricebox { padding: 0 1rem;}
+  .cousepricebox { padding: 0 0rem;}
+
+  .bundle {
+    top: 208px;
+  }
+
+  .btn-course {
+    width: 79px;
+  }
 
   .lessonheaderleft { width: 27%; }
 
@@ -2409,7 +2510,7 @@ padding: 12px 1px;
       
   .dropdown { padding: 7px; }
 
-  .cousepricebox { padding: 0 1rem;}
+  .cousepricebox { padding: 0 0rem;}
 
   .lessonheaderleft { width: 31.9%; }
 
@@ -2503,6 +2604,21 @@ padding: 12px 1px;
 
 .ld-focus-main .ld-focus-content {
   padding: 1.3rem;
+}
+
+.bundle {
+  top: 180px;
+}
+
+.btn-course {
+  width: 72px;
+}
+
+.bundle span {
+  font-size: 20px;
+}
+.delcourse {
+  font-size: 17px;
 }
 
   }
