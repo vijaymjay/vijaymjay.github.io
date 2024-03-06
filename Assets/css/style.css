@@ -358,7 +358,7 @@ video {
     
 .learningcoursesection .card img { max-width: 100%;}
 
-.cardcourse { font-size: 22px; line-height: 1.1; letter-spacing: -.04em; font-weight: 700;  margin-top: 12px; margin-bottom: 12px;  
+.cardcourse { font-size: 20px; line-height: 1.1; letter-spacing: -.04em; font-weight: 700;  margin-top: 12px; margin-bottom: 12px;  
 }
 
 .ulcourse ul li img { margin-right: 8px;
@@ -369,7 +369,7 @@ video {
 
   .ulcourse ul {  border-bottom: 1px solid #938c9a; padding-bottom:12px; border-top:1px solid #938c9a; padding-top:12px; }
 
-.coursetidesc {   color: #A0a0a0; }
+.coursetidesc {   color: #A0a0a0; font-size: 13px; }
 
 .btn-course {font-size: 23px;
   font-weight: 700;
@@ -427,7 +427,7 @@ video {
 
 .courselearnmore:hover { color:#fff;}
 
-.cousebullet { color: #A0a0a0; margin-bottom: 2px; margin-bottom:18px; }
+.cousebullet { color: #A0a0a0; margin-bottom: 2px; margin-bottom:18px; font-size: 13px; }
 
 .languagecourse { color: #A0a0a0; margin-left: 16px; }
 
