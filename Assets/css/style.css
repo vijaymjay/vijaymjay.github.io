@@ -354,7 +354,7 @@ video {
     border-radius: 20px;
 }
 
-.learningcoursesection .card img {border-radius: 18px 18px 0px 0px;}
+
     
 .learningcoursesection .card img { max-width: 100%;}
 
@@ -383,19 +383,19 @@ video {
 }
 
 .coursebundletext {
-  font-size: 27px;
+  font-size: 20px;
     font-weight: 700;
 }
 
 .bundle {
   position: absolute;
     width: 100%;
-    top: 327px;
+    top: 192px;
     text-align: center;
 }
 .bundle span {
   margin-left: 18px;
-    font-size: 29px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -436,7 +436,10 @@ video {
  /************ Course Detail ******************/   
 
  .coursetitle1 {  text-transform: uppercase; font-size: 17px;
-  font-weight: 700; border-bottom: 1px solid red;
+  font-weight: 700; border-style: solid;
+  border-width: 1pt 0;
+  border-image: linear-gradient(to right, #c20036 , #fc4836) 1;
+  border-top: none;
   padding-bottom: 14px; color: #727272; }
 
 .btn-enroll-large {  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 37px; padding: 16px 72px; font-size: 22px;  display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1);  letter-spacing: -.04em;
