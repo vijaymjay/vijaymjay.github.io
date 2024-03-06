@@ -358,27 +358,27 @@ video {
     
 .learningcoursesection .card img { max-width: 100%;}
 
-.cardcourse { font-size: 25px; line-height: 1.1; letter-spacing: -.04em; font-weight: 700;  margin-top: 20px; margin-bottom: 20px;  
+.cardcourse { font-size: 25px; line-height: 1.1; letter-spacing: -.04em; font-weight: 700;  margin-top: 12px; margin-bottom: 12px;  
 }
 
 .ulcourse ul li img { margin-right: 8px;
   border-radius: unset;
-  width: 3%; }
+  }
 
-  .ulcourse ul li {padding-bottom: 9px; }
+  .ulcourse ul li {padding-bottom: 4px; }
 
-  .ulcourse ul {  border-bottom: 1px solid #938c9a; padding-bottom:12px; }
+  .ulcourse ul {  border-bottom: 1px solid #938c9a; padding-bottom:12px; border-top:1px solid #938c9a; padding-top:12px; }
 
-.coursetidesc { border-bottom: 1px solid #938c9a; padding-bottom: 18px; color: #A0a0a0; }
+.coursetidesc {   color: #A0a0a0; }
 
-.btn-course {font-size: 30px;
+.btn-course {font-size: 23px;
   font-weight: 700;
   border-radius: 26px;
-  width: 120px;
+  width: 91px;
   background-image: linear-gradient(to right, #c20036 , #fc4836); }
 
 .delcourse {
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 10px;
 }
 
@@ -390,7 +390,7 @@ video {
 .bundle {
   position: absolute;
     width: 100%;
-    top: 192px;
+    top: 208px;
     text-align: center;
 }
 .bundle span {
@@ -400,16 +400,21 @@ video {
 }
 
 .coursebundlelist img {width: 69%;
-  margin-left: 13px;}
+  }
 
 .bundle img {
   width: 6%;
+  margin-top: -5px;
+}
+
+.card-img-top {
+  border-radius: 20px 20px 0px 0px;
 }
 
 .courselearnmore {  color: #fff;
   text-decoration: none;
-  font-size: 15pt;
-  width: 110px;
+  font-size: 12pt;
+  width: 87px;
   border-style: solid;
   border-width: 2pt 0;
   border-image: linear-gradient(to right, #c20036 , #fc4836) 1;
@@ -440,7 +445,7 @@ video {
   border-width: 1pt 0;
   border-image: linear-gradient(to right, #c20036 , #fc4836) 1;
   border-top: none;
-  padding-bottom: 14px; color: #727272; }
+  padding-bottom: 12px; color: #727272; }
 
 .btn-enroll-large {  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 37px; padding: 16px 72px; font-size: 22px;  display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1);  letter-spacing: -.04em;
   font-weight: 700; }
@@ -1623,8 +1628,7 @@ padding: 12px 1px;
     
 
     .cardcourse { font-size: 25px; 
-        margin-right: 1rem!important;
-        margin-left: 1rem!important; }
+       }
 
 
         .cabouttitle {
@@ -1725,7 +1729,7 @@ padding: 12px 1px;
 }
 
 .bundle {
-  top: 207px;
+  top: 242px;
   margin-top: -12px;
 }
 
@@ -1776,8 +1780,7 @@ padding: 12px 1px;
      .btn-entroll { padding: 15px 65px; font-size: 25px;  }
 
      .cardcourse { font-size: 38px; 
-        margin-right: 1rem!important;
-        margin-left: 1rem!important; }
+        }
 
 
     .bannerenrollcolor { padding: 148px 4px; }
@@ -2104,8 +2107,7 @@ padding: 12px 1px;
     }
 
     .cardcourse { font-size: 24px; 
-        margin-right: 1rem!important;
-        margin-left: 1rem!important; }
+        }
 
         .btn-course-large {
             font-size: 16px;
