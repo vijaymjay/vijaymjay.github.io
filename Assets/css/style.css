@@ -347,18 +347,18 @@ video {
 .learningcoursesection { background-color: #141316; min-height: 80%; }
 
 
-
+.cousebullet img {width: 50%;}
 
 .learningcoursesection  .card {
     border: none;
     border-radius: 20px;
 }
 
-
+.tablinks {  width: 158px; }
     
 .learningcoursesection .card img { max-width: 100%;}
 
-.cardcourse { font-size: 25px; line-height: 1.1; letter-spacing: -.04em; font-weight: 700;  margin-top: 12px; margin-bottom: 12px;  
+.cardcourse { font-size: 22px; line-height: 1.1; letter-spacing: -.04em; font-weight: 700;  margin-top: 12px; margin-bottom: 12px;  
 }
 
 .ulcourse ul li img { margin-right: 8px;
@@ -440,12 +440,19 @@ video {
 
  /************ Course Detail ******************/   
 
- .coursetitle1 {  text-transform: uppercase; font-size: 17px;
+ .coursetitle1 {  text-transform: uppercase; font-size: 12px;
   font-weight: 700; border-style: solid;
   border-width: 1pt 0;
   border-image: linear-gradient(to right, #c20036 , #fc4836) 1;
   border-top: none;
   padding-bottom: 12px; color: #727272; }
+
+  .coursetitle1 span {
+    margin-left: 97px;
+    text-transform: capitalize;
+  }
+
+  .coursetitle1 span img {  width: 5%;margin-right: 7px; }
 
 .btn-enroll-large {  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 37px; padding: 16px 72px; font-size: 22px;  display: inline-block; transition: background-color .4s cubic-bezier(.23, 1, .32, 1);  letter-spacing: -.04em;
   font-weight: 700; }
