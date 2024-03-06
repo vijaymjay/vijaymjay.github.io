@@ -450,7 +450,10 @@ video {
   .coursetitle1 span {
     margin-left: 97px;
     text-transform: capitalize;
+    font-weight: normal;
   }
+
+  .subtitle {width: 5%;}
 
   .coursetitle1 span img {  width: 5%;margin-right: 7px; }
 
@@ -2381,6 +2384,11 @@ padding: 12px 1px;
   padding: 2rem;
 }
 
+.coursetitle1 span {
+  display: block;
+  margin-left: 0px;
+}
+
             
       }
 
@@ -2631,6 +2639,11 @@ padding: 12px 1px;
 }
 .delcourse {
   font-size: 17px;
+}
+
+.coursetitle1 span {
+  display: block;
+  margin-left: 0px;
 }
 
   }
