@@ -527,6 +527,7 @@ video {
   display: flex;
     justify-content: center;
     padding: 16px 39px;
+    height: 65px;
  }
 
  .downarrow img { width: 48px; }
@@ -712,6 +713,39 @@ video {
 
   }
 
+  .courseoutlinehead {
+    padding: 17px 27px;
+    font-size: 20px;
+    background-color: #312e35;
+    display: flex;
+  }
+
+  .courseoutlinehead div {
+    margin-left: 13px;
+    font-weight: 700;
+    font-size: 24px;
+     
+   }
+
+   .courseoutlinehead2 {
+    padding:15px 35px;
+    font-size: 20px;
+    background-color: #312e35;
+    display: flex;
+  }
+
+  .courseoutlinehead2 div {
+    margin-left: 29px;
+    font-weight: 700;
+    font-size: 24px;
+     
+   }
+
+   .courseHeight {
+    height: 805px;
+    overflow-y: auto;
+   }
+
  .courseoutlinetext div {
   margin-left: 13px;
    
@@ -799,6 +833,22 @@ video {
 }
 
 .ld-course-navigation-list > .side::-webkit-scrollbar-thumb {
+  background-color: #666666;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #232026;  /* creates padding around scroll thumb */
+}
+
+
+.courseHeight::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+.courseHeight::-webkit-scrollbar-track {
+  background: #232026;        /* color of the tracking area */
+}
+
+
+.courseHeight::-webkit-scrollbar-thumb {
   background-color: #666666;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
   border: 3px solid #232026;  /* creates padding around scroll thumb */
