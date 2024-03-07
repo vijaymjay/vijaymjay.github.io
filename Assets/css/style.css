@@ -307,7 +307,7 @@ video {
  .btn-entroll {  background-image: linear-gradient(to right, #c20036 , #fc4836); border-radius: 37px; text-align:center; padding: 16px 72px;
     font-size: 22px; display: inline-block; background-color:var(--danger);  letter-spacing: -.04em; line-height: 1; font-weight: 700;  margin-bottom: 100px; transition: background-color .4s cubic-bezier(.23, 1, .32, 1);  }
 
- .footer { font-size: 16px; font-weight: 500; }
+ .footer { font-size: 14px; font-weight: 500; }
 
  .footersection {  background-color: #0A0A0A;  }
 
@@ -583,6 +583,7 @@ video {
     display: flex;
     justify-content: end;
     margin-right: 3rem!important;
+    text-decoration: underline;
 }
 
 .footerleft {margin-left: 3rem!important}
@@ -1275,7 +1276,7 @@ body::-webkit-scrollbar-thumb {
 
 .learningdashboardsection {
   background-color: #070707;
-  min-height: 75%;
+  min-height: 80%;
 }
 
 .dashboard-desc {
