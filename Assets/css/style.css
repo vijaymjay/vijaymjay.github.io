@@ -558,7 +558,7 @@ video {
 
 .lessoninnerlist div {
   margin-left: 29px;
-  font-size: 24px;
+  font-size: 18px;
   align-items: center;
   display: flex;
  
@@ -605,6 +605,11 @@ video {
 .rating__star {
   cursor: pointer;
   color: #F9E338;
+}
+
+.courseoutlinehead2 span img {
+  width: 23px;
+    margin-top: 8px
 }
 
 
@@ -736,8 +741,8 @@ video {
 
   .courseoutlinehead2 div {
     margin-left: 29px;
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: 500;
+    font-size: 21px;
      
    }
 
@@ -2439,6 +2444,28 @@ padding: 12px 1px;
   margin-left: 0px;
 }
 
+.courseoutlinehead2 div{
+  font-size: 18px;
+  margin-left:19px;
+}
+
+.courseoutlinehead2 span img {
+  margin-top: 0px;
+}
+
+.courseoutlinehead2 {
+  padding: 15px 11px;
+} 
+
+.lessonlist p {  font-size: 18px; }
+
+.lessoninnerlist img {
+  margin-top: 0px;
+}
+
+.lessoninnerlist div {
+  margin-left: 17px;
+}
             
       }
 
@@ -2534,7 +2561,7 @@ padding: 12px 1px;
 
         .lessonlist {margin-top:37px;}
 
-        .lessonlist p {  font-size: 20px; }
+        
 
         .lessoninnerlist img {
           padding-left: 8px;
@@ -2694,6 +2721,29 @@ padding: 12px 1px;
 .coursetitle1 span {
   display: block;
   margin-left: 0px;
+}
+
+.courseoutlinehead2 div{
+  font-size: 18px;
+  margin-left:19px;
+}
+
+.courseoutlinehead2 span img {
+  margin-top: 0px;
+}
+
+.courseoutlinehead2 {
+  padding: 15px 11px;
+} 
+
+.lessonlist p {  font-size: 18px; }
+
+.lessoninnerlist img {
+  margin-top: 0px;
+}
+
+.lessoninnerlist div {
+  margin-left: 17px;
 }
 
   }
