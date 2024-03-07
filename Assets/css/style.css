@@ -711,7 +711,7 @@ video {
   }
 
   .courseoutlinetext {
-    padding: 17px 27px;
+    padding: 17px 10px;
     font-size: 20px;
     border-bottom: 1px solid #332e3a;
     display: flex;
@@ -719,18 +719,18 @@ video {
   }
 
   .courseoutlinehead {
-    padding: 17px 17px;
+    padding: 17px 0px;
     font-size: 20px;
     background-color: #312e35;
     display: flex;
   }
 
-  .courseoutlinetext div { font-size: 18px;  }
+  .courseoutlinetext div { font-size: 18px; font-weight: 300;  }
 
   .courseoutlinehead div {
     margin-left: 19px;
-    font-weight: 500;
-    font-size: 21px;
+    font-weight: 400;
+    font-size: 19px;
      
    }
 
@@ -776,7 +776,7 @@ video {
   .courseoutline {
     padding: 21px 27px;
     font-size: 21px;
-    font-weight: 600;
+    font-weight: 500;
     border-bottom: 1px solid #232026;
   }
 
