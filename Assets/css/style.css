@@ -1275,7 +1275,12 @@ body::-webkit-scrollbar-thumb {
 
 .learningdashboardsection {
   background-color: #070707;
-  height: 80%;
+  min-height: 75%;
+}
+
+.dashboard-desc {
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .dashboardInnerBox {
@@ -1291,7 +1296,9 @@ body::-webkit-scrollbar-thumb {
 
 .headerinnersection {
   background-color: #18181A;
-  /* height: 10%; */
+  
+  display: flex;
+    align-items: center;
 }
 
 .leftsideinnerbox {
@@ -1344,12 +1351,12 @@ body::-webkit-scrollbar-thumb {
   border-right: 1px solid #25252a;
 }
 
-.addmobile img {width: 5%;
+.addmobile img {width: 6%;
   margin-right: 12px;}
 
   .mailicon img {
     width: 25px;
-    margin-right: 8px;
+    margin-right: 12px;
     height: 19px;
     margin-top: 5px;
   }
@@ -1367,6 +1374,7 @@ body::-webkit-scrollbar-thumb {
 
 .learningbillingsection {
   height: auto;
+  background-color: #070707;
 }
 
 .billingbox {
@@ -1381,7 +1389,7 @@ body::-webkit-scrollbar-thumb {
 .formvaluebox {
   background-color: #0F0F0F;
   border: 1px solid #25252a;
-  color: #938c9a;
+  color: #282828;
 }
 
 .formvaluebox:focus{
@@ -1413,13 +1421,19 @@ body::-webkit-scrollbar-thumb {
     float: right;
 }
 
+input::placeholder {
+  opacity: 0.5;
+  color: #282828;
+}
+
 ::placeholder {
-  color: #47434a;
-  opacity: 1; /* Firefox */
+  color: #282828;
+  opacity: 0.5; /* Firefox */
 }
 
 ::-ms-input-placeholder { /* Edge 12-18 */
-  color: #47434a;
+  color: #282828;
+  opacity: 0.5;
 }
 
 .passwordcollection {
@@ -1530,7 +1544,7 @@ body::-webkit-scrollbar-thumb {
   }
     
   .profilearrow {
-    width: 9%!important;
+    width: 10%!important;
     padding: 12px;
 }
 
@@ -2526,6 +2540,10 @@ padding: 12px 1px;
 .lessonheaderright {
   width: 150%;
 }
+
+.mustbe8 {
+  font-size: 9px;
+}
             
       }
 
@@ -2816,6 +2834,10 @@ padding: 12px 1px;
 
 .lessonheaderright {
   width: 150%;
+}
+
+.mustbe8 {
+  font-size: 9px;
 }
 
   }
