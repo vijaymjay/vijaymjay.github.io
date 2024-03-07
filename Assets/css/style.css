@@ -549,7 +549,7 @@ video {
 .lessoninnerlist img {
   
   width: 28px;
-  margin-top: 8px;
+  
 }
 
 .lessoninnerlist:hover {
@@ -557,7 +557,7 @@ video {
 }
 
 .lessoninnerlist div {
-  margin-left: 29px;
+  margin-left: 19px;
   font-size: 18px;
   align-items: center;
   display: flex;
@@ -609,7 +609,7 @@ video {
 
 .courseoutlinehead2 span img {
   width: 23px;
-    margin-top: 8px
+   
 }
 
 
@@ -719,28 +719,35 @@ video {
   }
 
   .courseoutlinehead {
-    padding: 17px 27px;
+    padding: 17px 17px;
     font-size: 20px;
     background-color: #312e35;
     display: flex;
   }
 
+  .courseoutlinetext div { font-size: 18px;  }
+
   .courseoutlinehead div {
-    margin-left: 13px;
-    font-weight: 700;
-    font-size: 24px;
+    margin-left: 19px;
+    font-weight: 500;
+    font-size: 21px;
      
    }
 
+   .courseoutlinehead div img {
+    width: 23px;
+     
+  }
+
    .courseoutlinehead2 {
-    padding:15px 35px;
+    padding:15px 14px;
     font-size: 20px;
     background-color: #312e35;
     display: flex;
   }
 
   .courseoutlinehead2 div {
-    margin-left: 29px;
+    margin-left: 19px;
     font-weight: 500;
     font-size: 21px;
      
@@ -768,8 +775,8 @@ video {
 
   .courseoutline {
     padding: 21px 27px;
-    font-size: 23px;
-    font-weight: 700;
+    font-size: 21px;
+    font-weight: 600;
     border-bottom: 1px solid #232026;
   }
 
